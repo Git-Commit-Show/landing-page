@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@352&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: "Josefin Sans", sans-serif;
+	overflow-x:hidden !important;
+	position: relative;
+}
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@media(max-width:786px){
+	html{
+	overflow-x:hidden;
+	}
+}
+/*BODY CSS*/
+body{
+    background-image: url('img/gcs-banner.png');
+    height: 100%;
+    width: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  body {
+    background-position: 0px;
+    }
+ }
+/*BODY CSS ENDS*/
+/*NAVBAR CSS*/
+
+@media all and (min-width:566) and (max-width:990px) {
+	.navbar-text {
+	display: inline-block;
+	padding-top: 1.5rem;
+	font-size: 2.5em;
+	text-align: center;
+	}
+	#logo {
+		padding: 0 ;
+		height: 40px ;
+    	width: 40px ;
+	}	
+}
+
+@media all and (min-width:991px) {
+	.navbar-text{
+		text-align: center ;
+	}
+
+}
+@media all and (min-width:450px) and (max-width:565px) {
+   .navbar-text {
+	display: inline-block;
+	padding-top: 1rem !important;
+	font-size: 1.3em !important;
+	text-align: center !important;
+	}
+	#logo{
+		padding: 0px !important;
+		height: 40px !important;
+    	width: 40px !important;
+	}
+	.fixed-top{
+	margin: 0px ;
+	padding-right: 15px;
+	text-align: center;		
+	}
+}
+@media all and (min-width:100px) and (max-width:449px) {
+   .navbar-text {
+	display: inline-block;
+	padding-top: 1rem !important;
+	font-size: 1em !important;
+	text-align: center !important;
+	}
+	#logo{
+		height: 40px !important;
+    	width: 40px !important;
+	}
+	.fixed-top{
+	margin: 0px !important;
+	padding-right: 15px !important;
+	text-align: center !important;
+	}
+}
+.navbar-text {
+	padding-top: 0.8em;
+	font-size: 2em;
+	color: #EFEFEF !important;
+	font-family: 'Work Sans', sans-serif;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;		
+}
+
+#nav-ul li a:hover {
+	color: red !important;
+}
+
+.navbar-nav .nav-link {
+  opacity: 1;
+  font-size: 1.313em;
+  font-family: "Josefin Sans", sans-serif;
+  color: white !important;
+}
+.navbar {
+	padding: 0rem 1rem;
+}
+
+#logo {
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+}
+
+.heading {
+	text-align: center;
+}
+#nav-ul{
+	font-size: 0.7em;
+	font-weight: bold;
+	padding-top: 0.5em;
+}
+/*NAVBAR CSS ENDS*/
