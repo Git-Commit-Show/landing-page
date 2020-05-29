@@ -20,7 +20,7 @@ html,body {
 }
 /*BODY CSS*/
 body{
-    background-image: url('img/gcs-banner.png');
+    background-image: url('../img/gcs-banner.png');
     height: 100%;
     width: 100%;
   	position: fixed;
