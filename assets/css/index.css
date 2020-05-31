@@ -26,54 +26,7 @@ html,body {
 body{
 	background: black;
 }
-
-/*body{
-	background-image: url('../img/gcs-banner.png');
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-}
-@media screen and (max-width: 1024px) { 
-	body {
-		background-position: 0px;
-	}
-}
-*/
-/*.banner {
-	display: flex;
-	justify-content: space-around;
-}
-
-.banner-masterclass {
-	flex: 1;
-}
-
-.banner-breakthrough {
-	flex: 1;
-}
-
-.banner-entertainment {
-	flex: 1;
-}
-
-.banner-network {
-	flex: 1;
-}
-
-.banner-giveaway {
-	flex: 1;
-}*/
-
 /*BODY CSS ENDS*/
-
 /*NAVBAR CSS*/
 
 @media all and (min-width:566) and (max-width:990px) {
@@ -171,67 +124,65 @@ body{
 }
 /*NAVBAR CSS ENDS*/
 /*HOME CSS*/
-#banner-text{
+#home-left-text {
 	position: absolute;
 	width: 681px;
-	height: 473px;
-	left: 144px;
-	top: 146px;
+	height: 487px;
+	left: 140px;
+	top: 92px;
 	color: #EFEFEF;
 }
-#banner-text p{
+
+#home-left-text p {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
-	font-size: 144px;
+	font-size: 128px;
 	font-weight: 900;
 	line-height: 91.5%;
 }
-#banner-text p span{
+#home-left-text p span {
 	display: inline;
 	position: absolute;
-	font-size: 30px;
-	padding-left: 0px;
-	bottom: 41px;
+	font-size: 29px;
+	bottom: 101px;
+	left: 396px;
 }
-
-#banner-date{
+#home-left-date {
 	position: absolute;
-	width: 583px;
-	height: 86px;
-	left: -35px;
-	top: 504px;
+	width: 523px;
+	height: 78px;
+	left: -30px;
+	top: 413px;
 	background: #E71D2B;
 	border-radius: 3px;
 	box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
 	font-family: 'IBM Plex Mono', monospace;
 }
-
-#banner-date p{
+#home-left-date p {
 	position: absolute;
-	left: 82px;
-	top: 5px;
+	left: 127px;
+	top: 3px;
 	font-weight: bold;
-	font-size: 52px;
+	font-size: 43px;
 	line-height: 68px;
 	color: #141414;
 }
-
-#banner-text-2{
+#home-left-text-2 {
 	position: absolute;
-	left: 117px;
-	top: 601px;
+	left: 151px;
+	top: 495px;
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 23px;
 	color: #EFEFEF;
-	text-shadow: 0px 0px 5px orange;
+	text-shadow: 0px 0px 5px #0fffffc9;
 }
 #mountain-1-div {
 	background-image: url("../img/mountain1.png");
 	position: relative;
-	height: 97%;
-	left: 720px;
-	top: 195px;
+	height: 618px;
+	left: 737px;
+	top: 17px;
 	mix-blend-mode: screen;
 }
 
@@ -254,4 +205,88 @@ body{
 	font-size: 25px;
 	line-height: 48px;
 	color: #141414;
+	text-decoration: none;
 }
+/*HOME SECTION END*/
+/*BANNER SECTION*/
+#banner-parrent{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+.banner-child{
+    flex: 0 1 250px;
+	align-content: center;
+}
+.banner-text-head{
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #EFEFEF;
+}
+.banner-text-child{
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #EFEFEF;
+}
+#banner img{
+	vertical-align: middle;
+	border-style: none;
+	padding-left: 75px;
+}
+.extra1{
+	padding-left: 75px;
+}
+#mountain-2-div {
+	background-image: url("../img/mountain2.png");
+	position: absolute;
+	height: 459px;
+	left: 735px;
+	top: 635px;
+	width: 629px;
+	mix-blend-mode: screen;
+}
+#banner hr {
+	position: relative;
+	width: 123px;
+	height: 0px;
+	left: 284px;
+	top: 202px;
+	border: 1px solid #E71D2B;
+}
+#banner-p {
+	position: relative;
+	left: 282px;
+	top: 189px;
+	width: 610px;
+	color: #EFEFEF;
+	font-family: 'IBM Plex Mono', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
