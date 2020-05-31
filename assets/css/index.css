@@ -186,7 +186,7 @@ body{
 	mix-blend-mode: screen;
 }
 
-#button-pic {
+#register-button-1 {
 	position: relative;
 	width: 314px;
 	height: 49px;
@@ -198,7 +198,7 @@ body{
 	border-radius: 2px;
 }
 
-#button-pic a {
+#register-button-1 a {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 600;
@@ -342,7 +342,7 @@ body{
 	flex:0 1 525px;
 }
 
-.zz{
+.jun27-child{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -358,7 +358,7 @@ body{
 	left: -24px;
 }
 
-.a{
+.speakers-time{
 	font-family: 'IBM Plex Mono', monospace;
 	font-style: normal;
 	font-weight: normal;
@@ -367,7 +367,7 @@ body{
 	color: #EFEFEF;
 	text-shadow: 0px 0px 5px #EFEFEF;
 }
-.b {
+.speakers-icon {
 	width: 99px;
 	height: 99px;
 	border-radius: 50px;
@@ -375,7 +375,7 @@ body{
 	position: relative;
 }
 
-.c {
+.speakers-data-1 {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 800;
@@ -383,7 +383,7 @@ body{
 	line-height: 36px;
 	color: #EFEFEF;
 }
-.d {
+.speakers-data-2 {
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 17px;
 	line-height: 23px;
@@ -391,7 +391,7 @@ body{
 	background: #E71D2B;
 	width: 125px;
 }
-.e {
+.speakers-data-3 {
 	font-family: 'Work Sans', sans-serif !important;
 	font-family: normal;
 	font-weight: 900;
@@ -399,7 +399,7 @@ body{
 	line-height: 14px;
 	color: #EFEFEF;
 }
-.f {
+.speakers-data-4 {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -436,6 +436,78 @@ body{
 	position: relative;
 	top: -55px;
 }
+.jun28-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+	padding-top: 45px !important; 
+}
+#register-button-2 {
+	position: relative;
+	width: 390px;
+	height: 55px;
+	text-align: center;
+	background: #EFEFEF;
+	box-shadow: 5px 10px 20px #000;
+	border-radius: 2px;
+	top: -1058px;
+	right: -808px;
+}
+#register-button-2 a {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 56px;
+	color: #141414;
+	text-decoration: none;
+}
+#mountain-3 {
+	width: 953px;
+	height: 736px;
+	mix-blend-mode: screen;
+	position: relative;
+	top: -301px;
+	text-align: right;
+	right: -396px;
+}
 
+#highlights{
+	position: relative;
+	margin: 0;
+	top: -680px;
+}
 
+#highlights-text-1 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #EFEFEF;
+	height: 120px;
+	width: 600px;
+	position: relative;
+	left: 322px;
+}
 
+#highlights-text-2 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	text-align: center;
+	color: #EFEFEF;
+	width: 443px;
+	height: 73px;
+	position: relative;
+	left: 400px;
+	top: -28px;
+}
+#mountain-4 {
+	mix-blend-mode: screen;
+	position: relative;
+}
