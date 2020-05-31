@@ -9,50 +9,75 @@ html,body {
 	position: relative;
 }
 *{
-  margin:0px;
-  padding: 0px;
-  box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 @media(max-width:786px){
 	html{
-	overflow-x:hidden;
+		overflow-x:hidden;
 	}
 }
 /*BODY CSS*/
 body{
-    background-image: url('../img/gcs-banner.png');
-    height: 100%;
-    width: 100%;
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-    background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
+	background-image: url('../img/gcs-banner.png');
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-around;
+}
+
+.banner-masterclass {
+	flex: 1;
+}
+
+.banner-breakthrough {
+	flex: 1;
+}
+
+.banner-entertainment {
+	flex: 1;
+}
+
+.banner-network {
+	flex: 1;
+}
+
+.banner-giveaway {
+	flex: 1;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
-  body {
-    background-position: 0px;
-    }
- }
+	body {
+		background-position: 0px;
+	}
+}
 /*BODY CSS ENDS*/
 /*NAVBAR CSS*/
 
 @media all and (min-width:566) and (max-width:990px) {
 	.navbar-text {
-	display: inline-block;
-	padding-top: 1.5rem;
-	font-size: 2.5em;
-	text-align: center;
+		display: inline-block;
+		padding-top: 1.5rem;
+		font-size: 2.5em;
+		text-align: center;
 	}
 	#logo {
 		padding: 0 ;
 		height: 40px ;
-    	width: 40px ;
+		width: 40px ;
 	}	
 }
 
@@ -63,38 +88,38 @@ body{
 
 }
 @media all and (min-width:450px) and (max-width:565px) {
-   .navbar-text {
-	display: inline-block;
-	padding-top: 1rem !important;
-	font-size: 1.3em !important;
-	text-align: center !important;
+	.navbar-text {
+		display: inline-block;
+		padding-top: 1rem !important;
+		font-size: 1.3em !important;
+		text-align: center !important;
 	}
 	#logo{
 		padding: 0px !important;
 		height: 40px !important;
-    	width: 40px !important;
+		width: 40px !important;
 	}
 	.fixed-top{
-	margin: 0px ;
-	padding-right: 15px;
-	text-align: center;		
+		margin: 0px ;
+		padding-right: 15px;
+		text-align: center;		
 	}
 }
 @media all and (min-width:100px) and (max-width:449px) {
-   .navbar-text {
-	display: inline-block;
-	padding-top: 1rem !important;
-	font-size: 1em !important;
-	text-align: center !important;
+	.navbar-text {
+		display: inline-block;
+		padding-top: 1rem !important;
+		font-size: 1em !important;
+		text-align: center !important;
 	}
 	#logo{
 		height: 40px !important;
-    	width: 40px !important;
+		width: 40px !important;
 	}
 	.fixed-top{
-	margin: 0px !important;
-	padding-right: 15px !important;
-	text-align: center !important;
+		margin: 0px !important;
+		padding-right: 15px !important;
+		text-align: center !important;
 	}
 }
 .navbar-text {
@@ -112,10 +137,10 @@ body{
 }
 
 .navbar-nav .nav-link {
-  opacity: 1;
-  font-size: 1.313em;
-  font-family: "Josefin Sans", sans-serif;
-  color: white !important;
+	opacity: 1;
+	font-size: 1.313em;
+	font-family: "Josefin Sans", sans-serif;
+	color: white !important;
 }
 .navbar {
 	padding: 0rem 1rem;
