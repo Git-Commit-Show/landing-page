@@ -1,0 +1,7 @@
+.slider {
+	display: flex;
+}
+
+.slider .items {
+	margin: 50px;
+}
