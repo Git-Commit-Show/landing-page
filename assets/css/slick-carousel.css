@@ -4,4 +4,24 @@
 
 .slider .items {
 	margin: 50px;
+	position: relative;
+}
+
+.slider .items .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.64)
+}
+
+.slider .slick-center .overlay {
+	opacity: 0;
+}
+
+.slider .items img {
+	transition: all linear .3s;
+}
+
+.slider .slick-center img {
+	transform: scale(1.2);
 }
