@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@352&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
@@ -24,7 +23,7 @@ html,body {
 }
 /*BODY CSS*/
 body{
-	background: black;
+	background: black !important;
 }
 /*BODY CSS ENDS*/
 /*NAVBAR CSS*/
@@ -93,11 +92,9 @@ body{
 	font-weight: normal;
 	font-style: normal;		
 }
-
 #nav-ul li a:hover {
 	color: red !important;
 }
-
 .navbar-nav .nav-link {
 	opacity: 1;
 	font-size: 1.313em;
@@ -107,7 +104,6 @@ body{
 .navbar {
 	padding: 0rem 1rem;
 }
-
 #logo {
 	height: 40px;
 	width: 40px;
@@ -276,19 +272,16 @@ body{
 	line-height: 15px;
 }
 /*BANNER SECTION END*/
-/*HIGHLIGHTS SECTION*/
+/*SPEAKERS SECTION*/
 #speakers{
 	margin-top: 200px;
 }
-
 #mountain-2{
 	position: relative;
 	overflow: hidden;
     background-size: cover;
     background-position: center;
-}
-#mountain2 img {
-	width: 100%;
+    width: 100%;
 	height: 100%;
 	mix-blend-mode: screen;
 }
@@ -374,7 +367,6 @@ body{
 	left: -18px;
 	position: relative;
 }
-
 .speakers-data-1 {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
@@ -472,7 +464,8 @@ body{
 	text-align: right;
 	right: -396px;
 }
-
+/*SPEAKER CSS END*/
+/*HIGHLIGHTS SECTION*/
 #highlights{
 	position: relative;
 	margin: 0;
@@ -507,7 +500,130 @@ body{
 	left: 400px;
 	top: -28px;
 }
+#video-button {
+	position: relative;
+	width: 378px;
+	height: 55px;
+	text-align: center;
+	background: #EFEFEF;
+	box-shadow: 5px 10px 20px #000;
+	border-radius: 4px;
+	top: 55px;
+	left: 497px;
+}
+#video-button a {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 17px;
+	line-height: 56px;
+	color: #141414;
+	text-decoration: none;
+}
 #mountain-4 {
 	mix-blend-mode: screen;
 	position: relative;
+	top: 90px;
+}
+#button-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	bottom: 164px;
+}
+#button-container .button-div{
+  display:flex;
+  flex-direction:column;
+  flex: 0 1 300px;
+  text-align:center;
+  color:white;
+}
+#button-container .button-div a {
+	flex: 0 0 50px;
+	width: 239px;
+	background: #EFEFEF;
+	box-shadow: 5px 10px 20px #000;
+	border-radius: 3px;
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 15px;
+	line-height: 34px;
+	color: #141414;
+	text-decoration: none;
+}
+#button-container .button-div a p{
+	position: relative;
+	top: 6px;
+}
+.button-p {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 38px;
+	text-align: center;
+	color: #EFEFEF;
+}
+/*HIGHLIGHTS SECTION*/
+/*FOOTER CSS*/
+#footer{
+	margin-top: -680px;
+	display:flex;
+	flex-wrap:wrap;
+    min-height:320px;
+	box-shadow: 0px -10px 20px rgba(0,0,0,0.75);
+	color:#EFEFEF;
+	background:#131313;
+}
+#footer .footer-child{
+	flex:1 1 250px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-top: 30px;
+	
+}
+#footer .footer-child span {
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 15px;
+	padding-top: 15px;
+	align-items: left
+}
+#footer .footer-child h3{
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 21px;
+}
+#footer .footer-child:nth-of-type(4){	
+	flex: 4 1 260px;
+   padding:30px;
+}
+#footer .footer-child:nth-of-type(4) h3{	
+	align-self: flex-start;
+}
+#footer .footer-child:nth-of-type(4) p{	
+	text-align: left;
+ 
+}
+#footer-social-media{
+  display:flex;
+  flex-direction:row-reverse;
+  width:90%;
+}
+
+#footer-social-media a{
+  text-decoration:none;
+  color:white;
+  font-size:30px;
+  margin:8px;
 }
