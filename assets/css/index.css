@@ -26,54 +26,7 @@ html,body {
 body{
 	background: black;
 }
-
-/*body{
-	background-image: url('../img/gcs-banner.png');
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-}
-@media screen and (max-width: 1024px) { 
-	body {
-		background-position: 0px;
-	}
-}
-*/
-/*.banner {
-	display: flex;
-	justify-content: space-around;
-}
-
-.banner-masterclass {
-	flex: 1;
-}
-
-.banner-breakthrough {
-	flex: 1;
-}
-
-.banner-entertainment {
-	flex: 1;
-}
-
-.banner-network {
-	flex: 1;
-}
-
-.banner-giveaway {
-	flex: 1;
-}*/
-
 /*BODY CSS ENDS*/
-
 /*NAVBAR CSS*/
 
 @media all and (min-width:566) and (max-width:990px) {
@@ -171,71 +124,69 @@ body{
 }
 /*NAVBAR CSS ENDS*/
 /*HOME CSS*/
-#banner-text{
+#home-left-text {
 	position: absolute;
 	width: 681px;
-	height: 473px;
-	left: 144px;
-	top: 146px;
+	height: 487px;
+	left: 140px;
+	top: 92px;
 	color: #EFEFEF;
 }
-#banner-text p{
+
+#home-left-text p {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
-	font-size: 144px;
+	font-size: 128px;
 	font-weight: 900;
 	line-height: 91.5%;
 }
-#banner-text p span{
+#home-left-text p span {
 	display: inline;
 	position: absolute;
-	font-size: 30px;
-	padding-left: 0px;
-	bottom: 41px;
+	font-size: 29px;
+	bottom: 101px;
+	left: 396px;
 }
-
-#banner-date{
+#home-left-date {
 	position: absolute;
-	width: 583px;
-	height: 86px;
-	left: -35px;
-	top: 504px;
+	width: 523px;
+	height: 78px;
+	left: -30px;
+	top: 413px;
 	background: #E71D2B;
 	border-radius: 3px;
 	box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
 	font-family: 'IBM Plex Mono', monospace;
 }
-
-#banner-date p{
+#home-left-date p {
 	position: absolute;
-	left: 82px;
-	top: 5px;
+	left: 127px;
+	top: 3px;
 	font-weight: bold;
-	font-size: 52px;
+	font-size: 43px;
 	line-height: 68px;
 	color: #141414;
 }
-
-#banner-text-2{
+#home-left-text-2 {
 	position: absolute;
-	left: 117px;
-	top: 601px;
+	left: 151px;
+	top: 495px;
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 23px;
 	color: #EFEFEF;
-	text-shadow: 0px 0px 5px orange;
+	text-shadow: 0px 0px 5px #0fffffc9;
 }
-#mountain-1-div {
-	background-image: url("../img/mountain1.png");
+#mountain-1-1 {
+	background-image: url("../img/mountain1-1.png");
 	position: relative;
-	height: 97%;
-	left: 720px;
-	top: 195px;
+	height: 618px;
+	left: 737px;
+	top: 17px;
 	mix-blend-mode: screen;
 }
 
-#button-pic {
+#register-button-1 {
 	position: relative;
 	width: 314px;
 	height: 49px;
@@ -247,11 +198,316 @@ body{
 	border-radius: 2px;
 }
 
-#button-pic a {
+#register-button-1 a {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 48px;
 	color: #141414;
+	text-decoration: none;
+}
+/*HOME SECTION END*/
+/*BANNER SECTION*/
+#banner-parrent{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+.banner-child{
+    flex: 0 1 250px;
+	align-content: center;
+}
+.banner-text-head{
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #EFEFEF;
+}
+.banner-text-child{
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #EFEFEF;
+}
+#banner img{
+	vertical-align: middle;
+	border-style: none;
+	padding-left: 75px;
+}
+.extra1{
+	padding-left: 75px;
+}
+#mountain-1-2 {
+	background-image: url("../img/mountain1-2.png");
+	position: absolute;
+	height: 459px;
+	left: 735px;
+	top: 635px;
+	width: 629px;
+	mix-blend-mode: screen;
+}
+#banner hr {
+	position: relative;
+	width: 123px;
+	height: 0px;
+	left: 284px;
+	top: 202px;
+	border: 1px solid #E71D2B;
+}
+#banner-p {
+	position: relative;
+	left: 282px;
+	top: 189px;
+	width: 610px;
+	color: #EFEFEF;
+	font-family: 'IBM Plex Mono', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+/*BANNER SECTION END*/
+/*HIGHLIGHTS SECTION*/
+#speakers{
+	margin-top: 200px;
+}
+
+#mountain-2{
+	position: relative;
+	overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+#mountain2 img {
+	width: 100%;
+	height: 100%;
+	mix-blend-mode: screen;
+}
+
+#schedule-text {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	position: relative;
+	color: #EFEFEF;
+	top: -245px;
+	width: 600px;
+	left: 373px;
+}
+#schedule-date{
+	position: relative;
+	width: 380px;
+	height: 70px;
+	background: #E71D2B;
+	border-radius: 3px;
+	box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
+	font-family: 'IBM Plex Mono', monospace;
+	text-align: left;
+	top: auto;
+	bottom: 165px;
+}
+#schedule-date p {
+	position: relative;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 68px;
+	color: #141414;
+	width: 233px;
+	text-align: right;
+}
+#jun27 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+	top: -116px;
+}
+
+.jun27-items{
+	display: flex;
+	flex-wrap: wrap;
+	flex:0 1 525px;
+}
+
+.jun27-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+	padding-top: 45px !important; 
+}
+
+.jun27-hr {
+	width: 100px;
+	height: 0px;
+	border: 1px solid #EFEFEF;
+	position: relative;
+	left: -24px;
+}
+
+.speakers-time{
+	font-family: 'IBM Plex Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 15px;
+	color: #EFEFEF;
+	text-shadow: 0px 0px 5px #EFEFEF;
+}
+.speakers-icon {
+	width: 99px;
+	height: 99px;
+	border-radius: 50px;
+	left: -18px;
+	position: relative;
+}
+
+.speakers-data-1 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 36px;
+	color: #EFEFEF;
+}
+.speakers-data-2 {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 17px;
+	line-height: 23px;
+	color: #141414;
+	background: #E71D2B;
+	width: 125px;
+}
+.speakers-data-3 {
+	font-family: 'Work Sans', sans-serif !important;
+	font-family: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 14px;
+	color: #EFEFEF;
+}
+.speakers-data-4 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	color: #EFEFEF;
+}
+#schedule-date-2{
+	position: relative;
+	width: 380px;
+	height: 70px;
+	background: #E71D2B;
+	border-radius: 3px;
+	box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
+	font-family: 'IBM Plex Mono', monospace;
+	text-align: left;
+	top: auto;
+	bottom: 70px;
+}
+#schedule-date-2 p {
+	position: relative;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 68px;
+	color: #141414;
+	width: 233px;
+	text-align: right;
+}
+#jun-28 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+	top: -55px;
+}
+.jun28-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+	padding-top: 45px !important; 
+}
+#register-button-2 {
+	position: relative;
+	width: 390px;
+	height: 55px;
+	text-align: center;
+	background: #EFEFEF;
+	box-shadow: 5px 10px 20px #000;
+	border-radius: 2px;
+	top: -1058px;
+	right: -808px;
+}
+#register-button-2 a {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 56px;
+	color: #141414;
+	text-decoration: none;
+}
+#mountain-3 {
+	width: 953px;
+	height: 736px;
+	mix-blend-mode: screen;
+	position: relative;
+	top: -301px;
+	text-align: right;
+	right: -396px;
+}
+
+#highlights{
+	position: relative;
+	margin: 0;
+	top: -680px;
+}
+
+#highlights-text-1 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #EFEFEF;
+	height: 120px;
+	width: 600px;
+	position: relative;
+	left: 322px;
+}
+
+#highlights-text-2 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	text-align: center;
+	color: #EFEFEF;
+	width: 443px;
+	height: 73px;
+	position: relative;
+	left: 400px;
+	top: -28px;
+}
+#mountain-4 {
+	mix-blend-mode: screen;
+	position: relative;
 }
