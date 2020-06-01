@@ -1,4 +1,4 @@
-.slider {
+.slider, .slick-arrow {
 	display: flex;
 }
 
@@ -18,10 +18,14 @@
 	opacity: 0;
 }
 
-.slider .items img {
+.slider .items iframe {
 	transition: all linear .3s;
 }
 
-.slider .slick-center img {
+.slider .slick-center iframe {
 	transform: scale(1.2);
+}
+
+.slick-arrow {
+	align-items: center;
 }
