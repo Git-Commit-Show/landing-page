@@ -596,6 +596,45 @@ body{
 	text-align: right;
 	right: -396px;
 }
+
+@media(max-width:500px) {
+#schedule-text {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
+    position: relative;
+    color: #EFEFEF;
+    top: -245px;
+    width: 370px;
+    left: 13px;
+}
+
+#register-button-2 {
+    position: relative;
+    width: 330px;
+    height: 55px;
+    text-align: center;
+    background: #EFEFEF;
+    box-shadow: 5px 10px 20px #000;
+    border-radius: 2px;
+    top: -758px;
+    right: -48px;
+}
+
+#mountain-3 {
+    width: 953px;
+    height: 736px;
+    mix-blend-mode: screen;
+    position: relative;
+    top: -301px;
+    text-align: right;
+    right: 94px;
+}
+}
+
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
@@ -709,6 +748,52 @@ body{
 	line-height: 38px;
 	text-align: center;
 	color: #EFEFEF;
+}
+
+@media(max-width:500px) {
+	#highlights-text-1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #EFEFEF;
+    height: 170px;
+    width: 410px;
+    margin: auto;
+}
+
+	#highlights-text-2 {
+	font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #EFEFEF;
+    width: 333px;
+    height: 73px;
+    margin: auto;
+}
+
+#youtube-thumbnail img {
+	border-radius: 12px;
+	/*flex: 0 1 350px;*/
+	width: 360px;
+}
+
+#video-button {
+    position: relative;
+    width: 288px;
+    height: 55px;
+    text-align: center;
+    background: #EFEFEF;
+    box-shadow: 5px 10px 20px #000;
+    border-radius: 4px;
+    top: 55px;
+    left: 57px;
+}
 }
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
