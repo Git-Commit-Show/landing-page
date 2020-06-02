@@ -5,7 +5,10 @@
 	<title>Welcome to Git Commit Show</title>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<!-- Link Swiper's CSS -->
+  	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
@@ -265,7 +268,7 @@
 	<div id="highlights">
 		<p id="highlights-text-1">GIT COMMIT SHOW 2019 HIGHLIGHTS</p>
 		<p id="highlights-text-2">...you can watch videos of sessions from previous GIT COMMIT SHOW conferences. Many more are available on our YouTube channel.</p>
-		<div class="slider">
+		<!-- <div class="slider">
 			<div class="items">
 				<iframe width="348" height="195"
 					src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0" frameborder="0"allowfullscreen></iframe>
@@ -297,7 +300,40 @@
 				src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0"
 				frameborder="0" allowfullscreen></iframe>
 		</div>
-	</div>	
+	</div> -->
+
+	<div class="swiper-container">
+    	<div class="swiper-wrapper">
+      		<div class="swiper-slide">
+      			<iframe class="iframe-size" src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0" frameborder="0"allowfullscreen></iframe>
+				<param name="allowFullScreen" value="true" />
+				<param name="allowscriptaccess" value="false"/>
+			</div>
+     		<div class="swiper-slide">
+      			<iframe class="iframe-size" src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0" frameborder="0"allowfullscreen></iframe>
+				<param name="allowFullScreen" value="true" />
+				<param name="allowscriptaccess" value="false"/>
+			</div>
+			<div class="swiper-slide">
+      			<iframe class="iframe-size"src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0" frameborder="0"allowfullscreen></iframe>
+				<param name="allowFullScreen" value="true" />
+				<param name="allowscriptaccess" value="false"/>
+			</div>
+			<div class="swiper-slide">
+      			<iframe  class="iframe-size" src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0" frameborder="0"allowfullscreen></iframe>
+				<param name="allowFullScreen" value="true" />
+				<param name="allowscriptaccess" value="false"/>
+			</div>
+			<div class="swiper-slide">
+      			<iframe class="iframe-size" src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0" frameborder="0"allowfullscreen></iframe>
+				<param name="allowFullScreen" value="true" />
+				<param name="allowscriptaccess" value="false"/>
+			</div> 
+    	</div>
+    	<!-- Add Arrows -->
+    	<div class="swiper-pagination"></div>
+  	</div>	
+		
 		<div id="youtube-thumbnail">
 			<img src="assets/img/thumbnail-2.png">
 		</div>
@@ -367,8 +403,22 @@
 	</div>
 	</div>
 	</div>
-	<!---FOOTER SECTION END--->
+	<!---FOOTER SECTION END--->	
 	<!-- SCRIPTS -->
+	<!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });
+  </script>
 	<script type="text/javascript" src="assets/slick/slick.js"></script>
 	<script type="text/javascript" src="assets/js/slick-effect.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
