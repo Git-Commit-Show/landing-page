@@ -9,81 +9,24 @@ body {
 	font-family: "Josefin Sans", sans-serif;
 	overflow-x:hidden !important;
 	position: relative;
-} 
-*{
 	margin:0px;
 	padding: 0px;
 	box-sizing: border-box;
-}
-@media(max-width:786px){
-	html{
-		overflow-x:hidden;
-	}
-	.navbar-nav .nav-link{
-		font-size:20px!important;
-	}
-
-}
-
-#abc{
-	display: flex;
-	flex-direction: column;
-}
-/*BODY CSS*/
-body{
 	background: black !important;
 }
 /*BODY CSS ENDS*/
 /*NAVBAR CSS*/
-
-@media all and (min-width:566) and (max-width:990px) {
-	.navbar-text {
-		display: inline-block;
-		padding-top: 1.5rem;
-		font-size: 2.5em;
-		text-align: center;
-	}
-	#logo {
-		padding: 0 ;
-		height: 40px ;
-		width: 40px ;
-	}	
+#logo {
+	height: 40px;
+	width: 40px;
+	margin: 5px;
 }
-
-@media all and (min-width:991px) {
-	.navbar-text{
-		text-align: center ;
-	}
-
-}
-@media all and (min-width:450px) and (max-width:565px) {
-	.navbar-text {
-		display: inline-block;
-		padding-top: 1rem !important;
-		font-size: 1.3em !important;
-		text-align: center !important;
-	}
-	#logo{
-		padding: 0px !important;
-		height: 40px !important;
-		width: 40px !important;
-	}
-	.fixed-top{
-		margin: 0px ;
-		padding-right: 15px;
-		text-align: center;		
-	}
-}
-@media all and (min-width:100px) and (max-width:449px) {
+@media all and (min-width:100px) and (max-width:649px) {
 	.navbar-text {
 		display: inline-block;
 		padding-top: 1rem !important;
 		font-size: 1em !important;
 		text-align: center !important;
-	}
-	#logo{
-		height: 40px !important;
-		width: 40px !important;
 	}
 	.fixed-top{
 		margin: 0px !important;
@@ -104,27 +47,11 @@ body{
 	color: red !important;
 }
 .navbar-nav .nav-link {
-	opacity: 1;
-	font-size: 1.313em;
 	font-family: "Josefin Sans", sans-serif;
 	color: white !important;
 }
 .navbar {
 	background-color: black;
-}
-#logo {
-	height: 40px;
-	width: 40px;
-	margin: 5px;
-}
-
-.heading {
-	text-align: center;
-}
-#nav-ul{
-	font-size: 0.7em;
-	font-weight: bold;
-	padding-top: 0.5em;
 }
 /*NAVBAR CSS ENDS*/
 /*HOME CSS*/
@@ -211,38 +138,119 @@ body{
 	color: #141414;
 	text-decoration: none;
 }
-
-@media(max-width:500px) {
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+	#home-left-text {
+		position: absolute;
+		width: 340px;
+		height: 240px;
+		left: 50px;
+		top: 150px;
+		color: #EFEFEF;
+	}
+	
+	#home-left-text p {
+		font-family: 'Work Sans', sans-serif;
+		font-style: normal;
+		font-size: 90px;
+		font-weight: 900;
+		line-height: 91.5%;
+	}
+	#home-left-text p span {
+		display: inline;
+		position: absolute;
+		font-size: 19px;
+		bottom: 0;
+		left: 286px;
+	}
+	#home-left-date {
+		position: absolute;
+		width: 293px;
+		height: 35px;
+		left: -30px;
+		top: 375px;
+		background: #E71D2B;
+		border-radius: 3px;
+		box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
+		font-family: 'IBM Plex Mono', monospace;
+	}
+	#home-left-date p {
+		position: absolute;
+		left: 87px;
+		top: -19px;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 68px;
+		color: #141414;
+	}
+	#home-left-text-2 {
+		position: absolute;
+		left: 21px;
+		top: 411px;
+		font-family: 'IBM Plex Mono', monospace;
+		font-size: 13px;
+		color: #EFEFEF;
+		text-shadow: 0px 0px 5px #0fffffc9;
+	}
+	#mountain-1-1 {
+		background-image: url(../img/mountain1-1.png);
+		position: relative;
+		height: 618px;
+		left: 3px;
+		top: 17px;
+	}
+	
+	#register-button-1 {
+		position: relative;
+		width: 314px;
+		height: 49px;
+		left: 21px;
+		top: 464px;
+		text-align: center;
+		background: #EFEFEF;
+		box-shadow: 5px 10px 20px #000;
+		border-radius: 2px;
+	}
+	
+	#register-button-1 a {
+		font-family: 'Work Sans', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 48px;
+		color: #141414;
+		text-decoration: none;
+	}	
+}
+@media only screen and (max-width:700px) {
 	#home-left-text {
 	position: absolute;
 	width: 340px;
 	height: 240px;
 	left: 14px;
-	top: 90px;
+	top: 150px;
 	color: #EFEFEF;
 }
 
 #home-left-text p {
 	font-family: 'Work Sans', sans-serif;
     font-style: normal;
-    font-size: 58px;
+    font-size: 70px;
     font-weight: 900;
     line-height: 91.5%;
-
 }
 #home-left-text p span {
 	display: inline;
     position: absolute;
     font-size: 19px;
-    bottom: 81px;
-    left: 186px;
+    bottom: 31px;
+    left: 216px;
 }
 #home-left-date {
 	position: absolute;
     width: 223px;
     height: 28px;
     left: -30px;
-    top: 233px;
+    top: 319px;
     background: #E71D2B;
     border-radius: 3px;
     box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
@@ -260,10 +268,9 @@ body{
 #home-left-text-2 {
 	position: absolute;
     left: 21px;
-    top: 265px;
+    top: 355px;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    line-height: 23px;
+    font-size: 13px;
     color: #EFEFEF;
     text-shadow: 0px 0px 5px #0fffffc9;
 }
@@ -297,7 +304,7 @@ body{
 	color: #141414;
 	text-decoration: none;
 }
-	}
+}
 
 /*HOME SECTION END*/
 /*BANNER SECTION*/
@@ -333,7 +340,6 @@ body{
 #banner img{
 	vertical-align: middle;
 	border-style: none;
-	padding-left: 75px;
 }
 .extra1{
 	padding-left: 75px;
@@ -349,9 +355,7 @@ body{
 }
 #banner hr {
 	position: relative;
-	width: 123px;
-	height: 0px;
-	left: 284px;
+	width: 233px;
 	top: 202px;
 	border: 1px solid #E71D2B;
 }
@@ -368,7 +372,7 @@ body{
 	line-height: 15px;
 }
 
-@media(max-width:500px) {
+@media(max-width:700px) {
 	#mountain-1-2 {
 	background-image: url("../img/mountain1-2.png");
 	position: absolute;
@@ -376,9 +380,7 @@ body{
 	left: -5px;
 	top: 635px;
 	width: 629px;
-	mix-blend-mode: screen;
 }
-
 	#banner hr {
 	position: relative;
 	width: 123px;
@@ -387,7 +389,6 @@ body{
 	top: 202px;
 	border: 1px solid #E71D2B;
 }
-
 	#banner-p {
 	position: relative;
     left: 15px;
@@ -402,7 +403,12 @@ body{
 	}
 
 }
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+	#banner-p{
+		left: 0;
+		top:189px;
 	}
+}
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
 #speakers{
@@ -597,7 +603,7 @@ body{
 	right: -396px;
 }
 
-@media(max-width:500px) {
+@media(max-width:700px) {
 #schedule-text {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -634,7 +640,19 @@ body{
     right: 94px;
 }
 }
-
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+	#schedule-text {
+		font-family: 'Work Sans', sans-serif;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 38px;
+		line-height: 56px;
+		text-align: center;
+		position: relative;
+		color: #EFEFEF;
+		left: 55px;
+	}
+}
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
@@ -750,7 +768,7 @@ body{
 	color: #EFEFEF;
 }
 
-@media(max-width:500px) {
+@media(max-width:700px) {
 	#highlights-text-1 {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -795,33 +813,32 @@ body{
     left: 57px;
 }
 }
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+	#video-button {
+		position: relative;
+		width: 288px;
+		height: 55px;
+		text-align: center;
+		background: #EFEFEF;
+		box-shadow: 5px 10px 20px #000;
+		border-radius: 4px;
+		left: 265px;
+	}
+}
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
 #footer{
 	margin-top: -710px;
-	display:flex;
-	flex-wrap:wrap;
-    min-height:250px;
-	box-shadow: 0px -10px 20px rgba(0,0,0,0.75);
 	color:#EFEFEF;
 	background:#131313;
-}
-#footer .footer-child{
-	flex:1 1 250px;
-	display:flex;
-	flex-direction:column;
-	align-items: center;
-	padding-top: 30px;
-	
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
 }
 #footer .footer-child span {
 	text-align: center;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 15px;
 	padding-top: 15px;
-	align-items: left
 }
 #footer .footer-child h3{
 	font-family: 'Work Sans', sans-serif;
@@ -830,26 +847,11 @@ body{
 	font-size: 18px;
 	line-height: 21px;
 }
-#footer .footer-child:nth-of-type(4){	
-	flex: 4 1 260px;
-   padding:30px;
-}
-#footer .footer-child:nth-of-type(4) h3{	
-	align-self: flex-start;
-}
-#footer .footer-child:nth-of-type(4) p{	
-	text-align: left;
- 
-}
-#footer-social-media{
-  display:flex;
-  flex-direction:row-reverse;
-  width:90%;
-}
-
 #footer-social-media a{
   text-decoration:none;
   color:white;
   font-size:30px;
-  margin:8px;
+}
+#footer-social-media a:hover{
+	transform: scale(1.2);
 }
