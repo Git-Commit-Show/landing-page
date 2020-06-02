@@ -211,6 +211,94 @@ body{
 	color: #141414;
 	text-decoration: none;
 }
+
+@media(max-width:500px) {
+	#home-left-text {
+	position: absolute;
+	width: 340px;
+	height: 240px;
+	left: 14px;
+	top: 90px;
+	color: #EFEFEF;
+}
+
+#home-left-text p {
+	font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 91.5%;
+
+}
+#home-left-text p span {
+	display: inline;
+    position: absolute;
+    font-size: 19px;
+    bottom: 81px;
+    left: 186px;
+}
+#home-left-date {
+	position: absolute;
+    width: 223px;
+    height: 28px;
+    left: -30px;
+    top: 233px;
+    background: #E71D2B;
+    border-radius: 3px;
+    box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
+    font-family: 'IBM Plex Mono', monospace;
+}
+#home-left-date p {
+	position: absolute;
+    left: 87px;
+    top: -19px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 68px;
+    color: #141414;
+}
+#home-left-text-2 {
+	position: absolute;
+    left: 21px;
+    top: 265px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    line-height: 23px;
+    color: #EFEFEF;
+    text-shadow: 0px 0px 5px #0fffffc9;
+}
+#mountain-1-1 {
+	background-image: url(../img/mountain1-1.png);
+    position: relative;
+    height: 618px;
+    left: -3px;
+    top: 17px;
+    mix-blend-mode: screen;
+}
+
+#register-button-1 {
+	position: relative;
+	width: 314px;
+	height: 49px;
+	left: 21px;
+	top: 464px;
+	text-align: center;
+	background: #EFEFEF;
+	box-shadow: 5px 10px 20px #000;
+	border-radius: 2px;
+}
+
+#register-button-1 a {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 48px;
+	color: #141414;
+	text-decoration: none;
+}
+	}
+
 /*HOME SECTION END*/
 /*BANNER SECTION*/
 #banner-parrent{
@@ -279,6 +367,42 @@ body{
 	font-size: 12px;
 	line-height: 15px;
 }
+
+@media(max-width:500px) {
+	#mountain-1-2 {
+	background-image: url("../img/mountain1-2.png");
+	position: absolute;
+	height: 459px;
+	left: -5px;
+	top: 635px;
+	width: 629px;
+	mix-blend-mode: screen;
+}
+
+	#banner hr {
+	position: relative;
+	width: 123px;
+	height: 0px;
+	left: 114px;
+	top: 202px;
+	border: 1px solid #E71D2B;
+}
+
+	#banner-p {
+	position: relative;
+    left: 15px;
+    top: 189px;
+    width: 340px;
+    color: #EFEFEF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+	}
+
+}
+	}
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
 #speakers{
@@ -472,6 +596,45 @@ body{
 	text-align: right;
 	right: -396px;
 }
+
+@media(max-width:500px) {
+#schedule-text {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
+    position: relative;
+    color: #EFEFEF;
+    top: -245px;
+    width: 370px;
+    left: 13px;
+}
+
+#register-button-2 {
+    position: relative;
+    width: 330px;
+    height: 55px;
+    text-align: center;
+    background: #EFEFEF;
+    box-shadow: 5px 10px 20px #000;
+    border-radius: 2px;
+    top: -758px;
+    right: -48px;
+}
+
+#mountain-3 {
+    width: 953px;
+    height: 736px;
+    mix-blend-mode: screen;
+    position: relative;
+    top: -301px;
+    text-align: right;
+    right: 94px;
+}
+}
+
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
@@ -585,6 +748,52 @@ body{
 	line-height: 38px;
 	text-align: center;
 	color: #EFEFEF;
+}
+
+@media(max-width:500px) {
+	#highlights-text-1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #EFEFEF;
+    height: 170px;
+    width: 410px;
+    margin: auto;
+}
+
+	#highlights-text-2 {
+	font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #EFEFEF;
+    width: 333px;
+    height: 73px;
+    margin: auto;
+}
+
+#youtube-thumbnail img {
+	border-radius: 12px;
+	/*flex: 0 1 350px;*/
+	width: 360px;
+}
+
+#video-button {
+    position: relative;
+    width: 288px;
+    height: 55px;
+    text-align: center;
+    background: #EFEFEF;
+    box-shadow: 5px 10px 20px #000;
+    border-radius: 4px;
+    top: 55px;
+    left: 57px;
+}
 }
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
