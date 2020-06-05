@@ -15,53 +15,7 @@ body {
 	        box-sizing: border-box;
 	background: black !important;
 }
-/*BODY CSS ENDS*/
-  .swiper-container {
-      width: 100%;
-      height: 100%;
-      padding: 10px;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      padding: 10px;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-    }
-.iframe-size{
-	height: 350px;
-	width: 500px;
-}
-.swiper-pagination{
-	color: white !important;
-}
-@media all and (max-width: 600px) and (min-width: 300px){
-	.iframe-size{
-	height: 280px;
-	width: 330px;
-	}
-	#youtube-thumbnail img{
-		-webkit-box-flex: 0 !important;
-		    -ms-flex: 0 1 300px !important;
-		        flex: 0 1 300px !important;
-	}
-}
-@media all and (min-width: 1400px){
-	.iframe-size{
-	height: 500px;
-	width: 750px;
-	}	
-}
-
+/*BODY CSS ENDS*/ 
 /*NAVBAR CSS*/
 
 #logo {
@@ -608,9 +562,9 @@ body {
 }
 
 .speakers-icon:hover {
-	-webkit-transform: scale(1.30);
-	    -ms-transform: scale(1.30);
-	        transform: scale(1.30);
+	-webkit-transform: scale(1.25);
+	    -ms-transform: scale(1.25);
+	        transform: scale(1.25);
 	-webkit-transition: -webkit-transform 0.3s ease-in-out;
 	transition: -webkit-transform 0.3s ease-in-out;
 	-o-transition: transform 0.3s ease-in-out;
@@ -619,7 +573,7 @@ body {
 	-webkit-filter: grayscale(0%);
 	        filter: grayscale(0%);
 }
-@media all and (max-width: 600px) and (min-width: 300px){
+@media all and (max-width: 600px) {
 	.speakers-icon:hover {
 		-webkit-transform: scale(1.15);
 		    -ms-transform: scale(1.15);
@@ -638,16 +592,6 @@ body {
 	-webkit-transition: all 0.7s ease;
 	-o-transition: all 0.7s ease;
 	transition: all 0.7s ease;
-}
-@media all and (max-width: 600px) and (min-width: 300px){
-	.speakers-icon:hover:after {
-		-webkit-transform: scale(1);
-		    -ms-transform: scale(1);
-		        transform: scale(1);
-		-webkit-transition: all 0.7s ease;
-		-o-transition: all 0.7s ease;
-		transition: all 0.7s ease;
-	}
 }
 
 .speakers-data-1 {
@@ -847,6 +791,53 @@ body {
 	height: 73px;
 	margin: auto;
 }
+/*Carousel CSS*/
+ .swiper-container {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      padding: 10px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+.iframe-size{
+	height: 350px;
+	width: 500px;
+}
+.swiper-pagination{
+	color: white !important;
+}
+@media all and (max-width: 600px) and (min-width: 300px){
+	.iframe-size{
+	height: 280px;
+	width: 330px;
+	}
+	#youtube-thumbnail img{
+		-webkit-box-flex: 0 !important;
+		    -ms-flex: 0 1 300px !important;
+		        flex: 0 1 300px !important;
+	}
+}
+@media all and (min-width: 1400px){
+	.iframe-size{
+	height: 500px;
+	width: 750px;
+	}	
+}
+/*Carousel CSS ENDS*/
 #youtube-thumbnail {
 	display: -webkit-box;
 	display: -ms-flexbox;
