@@ -685,8 +685,8 @@ body {
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 2px;
-	top: -1058px;
-	right: -808px;
+	top: -758px;
+	right: -558px;
 }
 #register-button-2 a {
 	font-family: 'Work Sans', sans-serif;
@@ -732,7 +732,7 @@ body {
             box-shadow: 5px 10px 20px #000;
     border-radius: 2px;
     top: -758px;
-    right: -48px;
+    right: -78px;
 }
 
 #mountain-3 {
@@ -757,6 +757,10 @@ body {
 		color: #EFEFEF;
 		left: 55px;
 	}
+	#register-button-2 {
+		right: -228px;
+	}
+	
 }
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
@@ -871,7 +875,7 @@ body {
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 4px;
 	top: 55px;
-	left: 497px;
+	left: 597px;
 }
 #video-button a {
 	font-family: 'Work Sans', sans-serif;
@@ -990,7 +994,7 @@ body {
             box-shadow: 5px 10px 20px #000;
     border-radius: 4px;
     top: 55px;
-    left: 57px;
+    left: 97px;
 }
 }
 @media only screen and (max-width: 1200px) and (min-width: 700px) {
