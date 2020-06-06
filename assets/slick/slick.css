@@ -1,4 +1,10 @@
 /* Slider */
+.slider-contain
+{
+    width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
 .slick-slider
 {
     position: relative;
@@ -116,4 +122,9 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.control-c {
+    width: 30px;
+    height: 30px;
+    margin:auto;
 }
