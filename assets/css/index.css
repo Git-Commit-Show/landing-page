@@ -923,8 +923,6 @@ body {
 	        flex: 0 0 50px;
 	width: 239px;
 	background: #EFEFEF;
-	-webkit-box-shadow: 5px 10px 20px #000;
-	        box-shadow: 5px 10px 20px #000;
 	border-radius: 3px;
 	margin: auto;
 	text-align: center;
