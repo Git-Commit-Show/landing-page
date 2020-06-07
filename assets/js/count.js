@@ -1,4 +1,3 @@
-
 var second = 1000,
 minute = second * 60,
 hour = minute * 60,
@@ -14,6 +13,5 @@ document.getElementById('days').innerText = Math.floor(distance / (day)),
   document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
   document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
   document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-
 
 }, second)
