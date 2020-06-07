@@ -808,10 +808,18 @@ body {
 	height: 300px;
 	width: 550px;
 }
+.carousel-iframe-size{
+	height: 195px;
+	width: 348px;
+}
 @media all and (max-width: 570px) and (min-width: 350px){
 	.iframe-size{
 	height: 280px !important;
 	width: 330px !important;
+	}
+	.carousel-iframe-size{
+	height: 190px;
+	width: 232px;
 	}
 	#youtube-thumbnail iframe{
 		-webkit-box-flex: 0 !important;
@@ -846,6 +854,10 @@ body {
 	.iframe-size{
 	height: 200px !important;
 	width: 250px !important;
+	}
+	.carousel-iframe-size{
+	height: 150px;
+	width: 200px;
 	}
 	#video-button {
 		width: 250px !important;
