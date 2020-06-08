@@ -409,12 +409,8 @@ body {
 	width: 629px;
 }
 	#banner hr {
-	position: relative;
 	width: 123px;
-	height: 0px;
-	left: 114px;
-	top: 202px;
-	border: 1px solid #E71D2B;
+	left: -114px;
 }
 	#banner-p {
 	position: relative;
@@ -464,9 +460,18 @@ body {
 	width: 600px;
 	left: 373px;
 }
+.timezone{
+	font-size: 25px;
+	color: white;
+	font-weight: lighter;
+	position: relative;
+	top: -250px;
+	left: -70px;
+}
+
 #schedule-date{
 	position: relative;
-	width: 380px;
+	width: 340px;
 	height: 70px;
 	background: #E71D2B;
 	border-radius: 3px;
@@ -483,7 +488,7 @@ body {
 	font-size: 34px;
 	line-height: 68px;
 	color: #141414;
-	width: 233px;
+	width: 220px;
 	text-align: right;
 }
 #jun27 {
@@ -592,7 +597,10 @@ body {
 	-o-transition: all 0.7s ease;
 	transition: all 0.7s ease;
 }
-
+.timezone{
+	left: 0px;
+	font-size: 20px;
+}
 .speakers-data-1 {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
@@ -627,7 +635,7 @@ body {
 }
 #schedule-date-2{
 	position: relative;
-	width: 380px;
+	width: 340px;
 	height: 70px;
 	background: #E71D2B;
 	border-radius: 3px;
@@ -644,7 +652,7 @@ body {
 	font-size: 34px;
 	line-height: 68px;
 	color: #141414;
-	width: 233px;
+	width: 220px;
 	text-align: right;
 }
 #jun-28 {
@@ -711,19 +719,15 @@ body {
 	right: -396px;
 }
 
-@media(max-width:700px) {
+@media(max-width:600px) {
 #schedule-text {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 56px;
-    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
     position: relative;
     color: #EFEFEF;
     top: -245px;
-    width: 370px;
-    left: 13px;
+    width: 300px;
+    left: 0px;
 }
 
 #mountain-3 {
@@ -738,14 +742,8 @@ body {
 }
 @media only screen and (max-width: 1200px) and (min-width: 700px) {
 	#schedule-text {
-		font-family: 'Work Sans', sans-serif;
-		font-style: normal;
-		font-weight: 800;
 		font-size: 38px;
-		line-height: 56px;
-		text-align: center;
-		position: relative;
-		color: #EFEFEF;
+		line-height: 56px;	
 		left: 55px;
 	}	
 }
@@ -837,7 +835,7 @@ body {
 	#register-button-2 {
 		width: 320px !important;
 		height: 48px !important;
-		right: -15px !important;
+		right: 3px !important;
 	}
 	#register-button-2 a {
 		font-size: 18px !important;
