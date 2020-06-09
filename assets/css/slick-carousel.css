@@ -2,9 +2,19 @@
 	display: flex;
 }
 
-.slider .items {
-	margin: 50px;
+.slider .items { 
+	margin-top: 30px !important;
+	margin-bottom: 50px !important;
 	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+@media all and (max-width: 370px){
+	.slider .items {
+		margin-left: 0px !important;
+	} 
 }
 
 .slider .items .overlay {

@@ -769,6 +769,7 @@ html,body{
     top: -245px;
     width: 370px;
     left: 13px;
+    margin: auto !important;
 }
 
 #mountain-3 {
@@ -792,8 +793,17 @@ html,body{
 		position: relative;
 		color: #EFEFEF;
 		left: 55px;
+		margin: auto !important;
 	}	
 }
+
+@media all and (max-width: 425px){
+	#schedule-text {
+		font-size: 30px !important;
+		left: 0px !important;
+		margin: auto !important;
+	}
+} 
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
@@ -857,14 +867,47 @@ html,body{
 	height: 195px;
 	width: 348px;
 }
+@media all and (max-width: 430px){
+	.carousel-iframe-size{
+	height: 200px !important;
+	width: 250px !important;
+	}
+}
+@media all and (min-width : 431px) and (max-width: 680px){
+	.carousel-iframe-size{
+	height: 250px !important;
+	width: 300px !important;
+	}
+}
+@media all and (min-width: 681px) and (max-width: 799px){
+	.carousel-iframe-size{
+	height: 300px !important;
+	width: 500px !important;
+	}
+}
+@media all and (min-width: 800px) and (max-width: 880px){
+	.carousel-iframe-size{
+	height: 230px !important;
+	width: 300px !important;
+	}
+}
+@media all and (min-width: 1199px) and (max-width: 1280px){
+	.carousel-iframe-size{
+	height: 230px !important;
+	width: 300px !important;
+	}
+}
+@media all and (min-width: 1600px){
+	.carousel-iframe-size{
+	height: 330px !important;
+	width: 430px !important;
+	}
+}
+
 @media all and (max-width: 570px) and (min-width: 350px){
 	.iframe-size{
 	height: 280px !important;
 	width: 330px !important;
-	}
-	.carousel-iframe-size{
-	height: 190px;
-	width: 232px;
 	}
 	#youtube-thumbnail iframe{
 		-webkit-box-flex: 0 !important;
@@ -882,7 +925,7 @@ html,body{
 	#register-button-2 {
 		width: 320px !important;
 		height: 48px !important;
-		right: -15px !important;
+		right: 0px !important;
 	}
 	#register-button-2 a {
 		font-size: 18px !important;
@@ -900,10 +943,10 @@ html,body{
 	height: 200px !important;
 	width: 250px !important;
 	}
-	.carousel-iframe-size{
+	/*.carousel-iframe-size{
 	height: 150px;
 	width: 200px;
-	}
+	}*/
 	#video-button {
 		width: 250px !important;
 		height: 44px !important;
@@ -1034,7 +1077,13 @@ html,body{
     width: 333px;
     height: 73px;
     margin: auto;
+	}
 }
+
+@media(max-width:400px) {
+	#highlights-text-1 {
+    width: 357px !important;
+	}
 }
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
