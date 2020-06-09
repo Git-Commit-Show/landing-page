@@ -7,6 +7,12 @@
 	position: relative;
 }
 
+@media all and (max-width: 370px){
+	.slider .items {
+		margin: 33px !important;
+	} 
+}
+
 .slider .items .overlay {
 	position: absolute;
 	top: 0;
