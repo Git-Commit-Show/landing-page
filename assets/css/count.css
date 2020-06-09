@@ -16,7 +16,7 @@
     display: block;
     font-size: 30px;
   }
-  @media only screen and (max-width:550px){
+  @media only screen and (max-width:450px){
     li.timer span{
       font-size: 20px;
     }
