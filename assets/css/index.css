@@ -492,6 +492,23 @@ html,body{
 	width: 600px;
 	left: 373px;
 }
+.timezone-text{
+	position: relative;
+	top: -250px;
+	left: -100px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.timezone-text span{
+	color: red;
+}
+@media only screen and (max-width:600px){
+	.timezone-text{
+		left: 5px;
+		text-align: left;
+	}
+}
 #schedule-date{
 	position: relative;
 	width: 380px;
