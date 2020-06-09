@@ -26,6 +26,9 @@ html,body{
 	width: 40px;
 	margin: 5px;
 }
+  p{
+	  margin: 0;
+  }
 @media all and (min-width:100px) and (max-width:649px) {
 	body {
 	overflow-x:hidden !important;
