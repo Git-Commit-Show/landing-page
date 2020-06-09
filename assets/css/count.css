@@ -6,28 +6,23 @@
     text-transform: uppercase;
     color: #141414;
     background-color: #f3f1f1;
-    padding: 0px 10px;
-    border-radius: 15px;
-    transform: translate(-50%, -50%)
+    padding: 10px 15px 5px 15px;
+    line-height: 25px;
+    font-weight: 700;
+    border-radius: 2px;
   }
   
   li.timer span {
-    text-align: center;
     display: block;
-    font-size: 35px;
-    font-weight: bold;
-    font-weight: 700;
-    border-radius: 15px; 
-
+    font-size: 30px;
   }
-      
-      .post-full-header {
-          text-align:center;
-      }
-      
-      .site-nav-left>.site-nav-content {
-       display: none;
-      }
-      
-
-    
+  @media only screen and (max-width:550px){
+    li.timer span{
+      font-size: 20px;
+    }
+    li.timer{
+      padding: 0 5px;
+      line-height: 20px;
+      font-size: 13px;
+    }
+  }
