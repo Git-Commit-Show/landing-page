@@ -828,12 +828,12 @@ html,body{
 		        flex: 0 1 300px !important;
 	}
 	#video-button {
-		width: 320px !important;
-		height: 48px !important;
+		width: 250px !important;
+		height: 58px !important;
 	}
 	#video-button a {
 		font-size: 18px !important;
-		line-height: 48px !important;
+		line-height: 20px !important;
 	}
 	#register-button-2 {
 		width: 320px !important;
