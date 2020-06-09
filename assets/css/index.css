@@ -1017,7 +1017,13 @@ html,body{
     width: 333px;
     height: 73px;
     margin: auto;
+	}
 }
+
+@media(max-width:400px) {
+	#highlights-text-1 {
+    width: 357px !important;
+	}
 }
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/

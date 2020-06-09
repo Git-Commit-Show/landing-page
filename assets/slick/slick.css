@@ -112,7 +112,7 @@
 {
     visibility: hidden;
 }
-.slick-vertical .slick-slide
+.slick-vertical .slick-slide 
 {
     display: block;
 
@@ -128,3 +128,17 @@
     height: 30px;
     margin:auto;
 }
+@media all and (min-width: 830px) and (max-width: 1200px){
+   .control-c {
+    width: 50px !important;
+    height: 50px !important;
+    margin:auto !important;
+} 
+} 
+@media all and (min-width: 1201px){
+   .control-c {
+    width: 60px !important;
+    height: 60px !important;
+    margin:auto !important;
+} 
+} 
