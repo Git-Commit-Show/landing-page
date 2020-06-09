@@ -13,7 +13,7 @@
 
 @media all and (max-width: 370px){
 	.slider .items {
-		margin-left: 1px !important;
+		margin-left: 0px !important;
 	} 
 }
 

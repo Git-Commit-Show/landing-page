@@ -59,7 +59,6 @@
     position: relative;
     top: 0;
     left: 0;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +127,7 @@
     height: 30px;
     margin:auto;
 }
-@media all and (min-width: 830px) and (max-width: 1200px){
+@media all and (min-width: 681px) and (max-width: 1200px){
    .control-c {
     width: 50px !important;
     height: 50px !important;
