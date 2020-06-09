@@ -752,6 +752,7 @@ html,body{
     top: -245px;
     width: 370px;
     left: 13px;
+    margin: auto !important;
 }
 
 #mountain-3 {
@@ -775,8 +776,17 @@ html,body{
 		position: relative;
 		color: #EFEFEF;
 		left: 55px;
+		margin: auto !important;
 	}	
 }
+
+@media all and (max-width: 425px){
+	#schedule-text {
+		font-size: 30px !important;
+		left: 0px !important;
+		margin: auto !important;
+	}
+} 
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
