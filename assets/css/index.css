@@ -155,7 +155,7 @@ html,body{
 	color: #141414;
 	text-decoration: none;
 }
-@media only screen and (max-width: 1200px) and (min-width: 700px) {
+@media only screen and (max-width: 1024px) and (min-width: 630px) {
 	#home-left-text {
 		position: absolute;
 		width: 340px;
@@ -211,36 +211,15 @@ html,body{
 	}
 	#mountain-1-1 {
 		background-image: url(../img/mountain1-1.png);
-		position: relative;
-		height: 618px;
-		left: 3px;
-		top: 17px;
+		background-repeat: no-repeat;
+    	position: relative;
+    	height: 618px;
+    	left: 37.7%;
+    	top: 17px;
 	}
 	
-	#register-button-1 {
-		position: relative;
-		width: 314px;
-		height: 49px;
-		left: 21px;
-		top: 464px;
-		text-align: center;
-		background: #EFEFEF;
-		-webkit-box-shadow: 5px 10px 20px #000;
-		        box-shadow: 5px 10px 20px #000;
-		border-radius: 2px;
-	}
-	
-	#register-button-1 a {
-		font-family: 'Work Sans', sans-serif;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 25px;
-		line-height: 48px;
-		color: #141414;
-		text-decoration: none;
-	}	
 }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:630px) {
 	#home-left-text {
 	position: absolute;
 	width: 340px;
@@ -326,6 +305,29 @@ html,body{
 	text-decoration: none;
 	}
 }
+@media only screen and (min-width: 1024px) and (max-width: 1450px){
+	#mountain-1-1 {
+	background-image: url(../img/mountain1-1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 618px;
+    left: 56%;
+    top: 17px;
+	}
+}
+@media only screen and (min-width:1450px){
+	#mountain-1-1 {
+	background-image: url(../img/mountain1-1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 618px;
+    left: 64.8%;
+    top: 17px;
+	}
+
+	
+}
+
 
 /*HOME SECTION END*/
 /*BANNER SECTION*/
@@ -378,13 +380,14 @@ html,body{
 	padding-left: 75px;
 }
 #mountain-1-2 {
-	background-image: url("../img/mountain1-2.png");
-	position: absolute;
-	height: 459px;
-	left: 735px;
-	top: 635px;
-	width: 629px;
-	mix-blend-mode: screen;
+	background-image: url(../img/mountain1-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 459px;
+    left: 37.7%;
+    top: 635px;
+    width: 629px;
+    mix-blend-mode: screen;
 }
 #banner hr {
 	position: relative;
@@ -405,7 +408,7 @@ html,body{
 	line-height: 15px;
 }
 
-@media(max-width:700px) {
+@media(max-width:630px) {
 	#mountain-1-2 {
 	background-image: url("../img/mountain1-2.png");
 	position: absolute;
@@ -415,8 +418,12 @@ html,body{
 	width: 629px;
 }
 	#banner hr {
+	position: relative;
 	width: 123px;
-	left: -114px;
+	height: 0px;
+	left: 114px;
+	top: 202px;
+	border: 1px solid #E71D2B;
 }
 	#banner-p {
 	position: relative;
@@ -432,11 +439,30 @@ html,body{
 	}
 
 }
-@media only screen and (max-width: 1200px) and (min-width: 700px) {
-	#banner-p{
-		left: 0;
-		top:189px;
+@media only screen and (min-width: 1024px) and (max-width: 1450px) {
+	#mountain-1-2 {
+	background-image: url(../img/mountain1-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 459px;
+    left: 56.1%;
+    top: 635px;
+    width: 629px;
+    mix-blend-mode: screen;
 	}
+}
+@media only screen and (min-width:1450px){
+	#mountain-1-2 {
+	background-image: url(../img/mountain1-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 459px;
+    left: 64.8%;
+    top: 635px;
+    width: 629px;
+    mix-blend-mode: screen;
+	}
+
 }
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
@@ -466,18 +492,9 @@ html,body{
 	width: 600px;
 	left: 373px;
 }
-.timezone{
-	font-size: 25px;
-	color: white;
-	font-weight: lighter;
-	position: relative;
-	top: -250px;
-	left: -70px;
-}
-
 #schedule-date{
 	position: relative;
-	width: 340px;
+	width: 380px;
 	height: 70px;
 	background: #E71D2B;
 	border-radius: 3px;
@@ -494,7 +511,7 @@ html,body{
 	font-size: 34px;
 	line-height: 68px;
 	color: #141414;
-	width: 220px;
+	width: 233px;
 	text-align: right;
 }
 #jun27 {
@@ -603,10 +620,7 @@ html,body{
 	-o-transition: all 0.7s ease;
 	transition: all 0.7s ease;
 }
-.timezone{
-	left: 0px;
-	font-size: 20px;
-}
+
 .speakers-data-1 {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
@@ -641,7 +655,7 @@ html,body{
 }
 #schedule-date-2{
 	position: relative;
-	width: 340px;
+	width: 380px;
 	height: 70px;
 	background: #E71D2B;
 	border-radius: 3px;
@@ -658,7 +672,7 @@ html,body{
 	font-size: 34px;
 	line-height: 68px;
 	color: #141414;
-	width: 220px;
+	width: 233px;
 	text-align: right;
 }
 #jun-28 {
@@ -725,15 +739,19 @@ html,body{
 	right: -396px;
 }
 
-@media(max-width:600px) {
+@media(max-width:700px) {
 #schedule-text {
-    font-size: 30px;
-    line-height: 36px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
     position: relative;
     color: #EFEFEF;
     top: -245px;
-    width: 300px;
-    left: 0px;
+    width: 370px;
+    left: 13px;
 }
 
 #mountain-3 {
@@ -748,8 +766,14 @@ html,body{
 }
 @media only screen and (max-width: 1200px) and (min-width: 700px) {
 	#schedule-text {
+		font-family: 'Work Sans', sans-serif;
+		font-style: normal;
+		font-weight: 800;
 		font-size: 38px;
-		line-height: 56px;	
+		line-height: 56px;
+		text-align: center;
+		position: relative;
+		color: #EFEFEF;
 		left: 55px;
 	}	
 }
@@ -831,17 +855,17 @@ html,body{
 		        flex: 0 1 300px !important;
 	}
 	#video-button {
-		width: 320px !important;
-		height: 48px !important;
+		width: 250px !important;
+		height: 58px !important;
 	}
 	#video-button a {
 		font-size: 18px !important;
-		line-height: 48px !important;
+		line-height: 20px !important;
 	}
 	#register-button-2 {
 		width: 320px !important;
 		height: 48px !important;
-		right: 3px !important;
+		right: -15px !important;
 	}
 	#register-button-2 a {
 		font-size: 18px !important;
