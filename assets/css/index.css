@@ -503,8 +503,8 @@ html,body{
 }
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
-#mountain-2 {
-	position: relative;
+#mountain-2 img{
+	/*position: relative;*/
 	overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -512,7 +512,6 @@ html,body{
 	height: 100%;
 	mix-blend-mode: screen;
 }
-
 #schedule-text {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
@@ -524,23 +523,63 @@ html,body{
 	color: #EFEFEF;
 	top: -245px;
 	width: 600px;
-	left: 373px;
+	margin: auto;
 }
 .timezone-text{
 	position: relative;
 	top: -250px;
-	left: -100px;
 	color: white;
 	font-size: 20px;
 	text-align: center;
+	margin: auto;
 }
 .timezone-text span{
 	color: red;
 }
-@media only screen and (max-width:600px){
+@media all and (min-width: 841px) and (max-width: 1200px) {
+	#schedule-text {
+		top: -175px !important;
+		font-size: 45px;
+		line-height: 45px;
+	}
 	.timezone-text{
-		left: 5px;
-		text-align: left;
+		top: -180px !important;
+		font-size: 25px; 
+	}
+}
+@media all and (min-width: 690px) and (max-width: 840px) {
+	#schedule-text {
+		top: -130px !important;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.timezone-text{
+		top: -125px !important;
+		font-size: 22px; 
+	}
+}
+@media all and (min-width: 451px) and (max-width: 689px) {
+	#schedule-text {
+		top: -90px !important;
+		font-size: 25px;
+		line-height: 30px;
+		width: 270px;
+	}
+	.timezone-text{
+		top: -85px !important;
+		font-size: 20px; 
+	}
+}
+@media all and (max-width: 450px) {
+	#schedule-text {
+		top: -50px !important;
+		font-size: 20px;
+		line-height: 30px;
+		width: 270px;
+	}
+	.timezone-text{
+		top: -45px !important;
+		font-size: 15px; 
 	}
 }
 #schedule-date{
@@ -789,23 +828,6 @@ html,body{
 	text-align: right;
 	right: -396px;
 }
-
-@media(max-width:700px) {
-#schedule-text {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 56px;
-    text-align: center;
-    position: relative;
-    color: #EFEFEF;
-    top: -245px;
-    width: 370px;
-    left: 13px;
-    margin: auto !important;
-}
-
 #mountain-3 {
     width: 953px;
     height: 736px;
@@ -814,29 +836,6 @@ html,body{
     top: -301px;
     text-align: right;
     right: 94px;
-}
-}
-@media only screen and (max-width: 1200px) and (min-width: 700px) {
-	#schedule-text {
-		font-family: 'Work Sans', sans-serif;
-		font-style: normal;
-		font-weight: 800;
-		font-size: 38px;
-		line-height: 56px;
-		text-align: center;
-		position: relative;
-		color: #EFEFEF;
-		left: 55px;
-		margin: auto !important;
-	}	
-}
-
-@media all and (max-width: 425px){
-	#schedule-text {
-		font-size: 30px !important;
-		left: 0px !important;
-		margin: auto !important;
-	}
 } 
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
