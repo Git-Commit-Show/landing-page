@@ -503,8 +503,7 @@ html,body{
 }
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
-#mountain-2 img{
-	/*position: relative;*/
+#mountain-2 {
 	overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -592,8 +591,15 @@ html,body{
 	        box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
 	font-family: 'IBM Plex Mono', monospace;
 	text-align: left;
-	top: auto;
-	bottom: 165px;
+	top: -50px;
+}
+@media all and (max-width: 450px){
+	#schedule-date{
+		top: 0px !important;
+	}
+	#jun27 {
+		top: 0px !important;
+	}
 }
 #schedule-date p {
 	position: relative;
@@ -617,7 +623,7 @@ html,body{
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	position: relative;
-	top: -116px;
+	top: -30px;
 }
 
 .jun27-items{
@@ -754,7 +760,6 @@ html,body{
 	font-family: 'IBM Plex Mono', monospace;
 	text-align: left;
 	top: auto;
-	bottom: 70px;
 }
 #schedule-date-2 p {
 	position: relative;
@@ -778,7 +783,6 @@ html,body{
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	position: relative;
-	top: -55px;
 }
 .jun28-child{
 	display: -webkit-box;
@@ -824,25 +828,25 @@ html,body{
 	height: 736px;
 	mix-blend-mode: screen;
 	position: relative;
-	top: -301px;
-	text-align: right;
-	right: -396px;
+	top: -275px;
+	left: 350px;
 }
-#mountain-3 {
-    width: 953px;
-    height: 736px;
-    mix-blend-mode: screen;
-    position: relative;
-    top: -301px;
-    text-align: right;
-    right: 94px;
-} 
+@media all and (min-width: 1600px){
+	#mountain-3 {
+		left: 750px;
+	}
+}
+@media all and (max-width: 600px){
+	#mountain-3 {
+		left: 40px;
+	}
+}
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
 	position: relative;
 	margin: 0;
-	top: -680px;
+	top: -700px;
 }
 
 #highlights-text-1 {
@@ -871,6 +875,7 @@ html,body{
 	margin: auto;
 }
 #youtube-thumbnail {
+	padding-top: 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -976,10 +981,6 @@ html,body{
 	height: 200px !important;
 	width: 250px !important;
 	}
-	/*.carousel-iframe-size{
-	height: 150px;
-	width: 200px;
-	}*/
 	#video-button {
 		width: 250px !important;
 		height: 44px !important;
