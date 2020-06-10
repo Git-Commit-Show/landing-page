@@ -328,7 +328,6 @@ html,body{
 	
 }
 
-
 /*HOME SECTION END*/
 /*BANNER SECTION*/
 #banner-parrent{
@@ -391,11 +390,13 @@ html,body{
 }
 #banner hr {
 	position: relative;
-	width: 233px;
+	width: 150px;
 	top: 202px;
+	left: -380px;
 	border: 1px solid #E71D2B;
 }
 #banner-p {
+	padding-top: 5px;
 	position: relative;
 	left: 282px;
 	top: 189px;
@@ -403,11 +404,12 @@ html,body{
 	color: #EFEFEF;
 	font-family: 'IBM Plex Mono', monospace;
 	font-style: normal;
-	font-weight: 600;
 	font-size: 12px;
 	line-height: 15px;
 }
-
+#banner-p span{
+	font-weight: 800;
+}
 @media(max-width:630px) {
 	#mountain-1-2 {
 	background-image: url("../img/mountain1-2.png");
@@ -421,7 +423,7 @@ html,body{
 	position: relative;
 	width: 123px;
 	height: 0px;
-	left: 114px;
+	left: -100px;
 	top: 202px;
 	border: 1px solid #E71D2B;
 }
