@@ -402,13 +402,14 @@ html,body{
 	top: 189px;
 	width: 610px;
 	color: #EFEFEF;
-	font-family: 'IBM Plex Mono', monospace;
-	font-style: normal;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 15px;
+	font-weight: lighter;
+	font-family: 'Work Sans', sans-serif;
 }
 #banner-p span{
-	font-weight: 800;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 900;
 }
 @media(max-width:630px) {
 	#mountain-1-2 {
