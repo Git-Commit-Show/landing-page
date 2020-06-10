@@ -392,6 +392,7 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	margin: auto;
+	padding-top: 90px;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
@@ -414,7 +415,7 @@ html,body{
 #banner-p {
 	position: relative;
 	text-align: left;
-	width: 80%;
+	width: 70%;
 	color: #EFEFEF;
 	font-family: 'IBM Plex Mono', monospace;
 	font-style: normal;
@@ -424,17 +425,21 @@ html,body{
 #banner-p span{
 	font-weight: 800;
 }
-@media all and (max-width: 750px){
+@media all and (max-width: 950px){
 	#banner-p {
 		width: 100% !important;
 	}	
 }
-@media all and (min-width: 621px) and (max-width: 1600px){
+@media all and (min-width: 621px) and (max-width: 1200px){
 	#banner-div {
 		margin-left: 100px !important;
 	}
 }
-
+@media all and (min-width: 1201px) and (max-width: 1800px){
+	#banner-div {
+		margin-left: 300px !important;
+	}
+}
 @media all and (min-width: 400px) and (max-width: 620px){
 	#banner-div {
 		margin-left: 50px !important;
@@ -452,6 +457,14 @@ html,body{
 		font-size: 12px !important;
 		line-height: 15px !important;
 	}	
+}
+#timer-div{
+	padding-top: 60px;
+}
+@media all and (max-width: 400px){
+	#timer-div{
+		padding-top: 30px;
+	}
 }
 
 @media all and (max-width:630px) {
@@ -487,14 +500,10 @@ html,body{
     width: 629px;
     mix-blend-mode: screen;
 	}
-
 }
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
-#speakers{
-	margin-top: 200px;
-}
-#mountain-2{
+#mountain-2 {
 	position: relative;
 	overflow: hidden;
     background-size: cover;
