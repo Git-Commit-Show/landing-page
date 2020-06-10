@@ -806,7 +806,7 @@ html,body{
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 2px;
-	top: -758px;
+	top: -740px;
 	right: -40px;
 	text-align: center;
 	display: flex;
@@ -1026,7 +1026,8 @@ html,body{
 #mountain-4 {
 	mix-blend-mode: screen;
 	position: relative;
-	top: 90px;
+	top: 41px;
+	width: 100%;
 }
 #button-container {
 	display: -webkit-box;
@@ -1038,7 +1039,22 @@ html,body{
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	position: relative;
-	bottom: 164px;
+	bottom: 150px;
+}
+@media all and (min-width: 671px) and (max-width: 1055px){
+	#button-container{
+		bottom: 80px;
+	}
+}
+@media all and (min-width: 381px) and (max-width: 670px){
+	#button-container{
+		bottom: 25px;
+	}
+}
+@media all and (max-width: 380px){
+	#button-container{
+		bottom: -10px;
+	}
 }
 #button-container .button-div{
   display:-webkit-box;
@@ -1122,7 +1138,7 @@ html,body{
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
 #footer{
-	margin-top: -710px;
+	margin-top: -670px;
 	color:#EFEFEF;
 	background:#131313;
 	font-family: 'Work Sans', sans-serif;
