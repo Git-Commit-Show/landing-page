@@ -388,30 +388,86 @@ html,body{
     width: 629px;
     mix-blend-mode: screen;
 }
-#banner hr {
-	position: relative;
-	width: 150px;
-	top: 202px;
-	left: -380px;
+#banner-div {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding-top: 90px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+#banner-span {
+	width: 14%;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	align-self: flex-start;
+}
+#banner-hr {
+	display: flex;
+	align-self: flex-start;
+	width: 100%;
+	align-content: flex-start;
 	border: 1px solid #E71D2B;
 }
 #banner-p {
-	padding-top: 5px;
 	position: relative;
-	left: 282px;
-	top: 189px;
-	width: 610px;
+	text-align: left;
+	width: 70%;
 	color: #EFEFEF;
-	font-size: 15px;
-	line-height: 15px;
-	font-weight: lighter;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
 }
 #banner-p span{
-	font-family: 'IBM Plex Mono', monospace;
-	font-weight: 900;
+	font-weight: 800;
 }
-@media(max-width:630px) {
+@media all and (max-width: 950px){
+	#banner-p {
+		width: 100% !important;
+	}	
+}
+@media all and (min-width: 621px) and (max-width: 1200px){
+	#banner-div {
+		margin-left: 100px !important;
+	}
+}
+@media all and (min-width: 1201px) and (max-width: 1800px){
+	#banner-div {
+		margin-left: 300px !important;
+	}
+}
+@media all and (min-width: 400px) and (max-width: 620px){
+	#banner-div {
+		margin-left: 50px !important;
+	}
+	#banner-p {
+		font-size: 12px !important;
+		line-height: 15px !important;
+	}		
+} 
+@media all and (max-width: 399px){
+	#banner-div {
+		margin-left: 20px !important;
+	}
+	#banner-p {
+		font-size: 12px !important;
+		line-height: 15px !important;
+	}	
+}
+#timer-div{
+	padding-top: 60px;
+}
+@media all and (max-width: 400px){
+	#timer-div{
+		padding-top: 30px;
+	}
+}
+
+@media all and (max-width:630px) {
 	#mountain-1-2 {
 	background-image: url("../img/mountain1-2.png");
 	position: absolute;
@@ -419,28 +475,7 @@ html,body{
 	left: -5px;
 	top: 635px;
 	width: 629px;
-}
-	#banner hr {
-	position: relative;
-	width: 123px;
-	height: 0px;
-	left: -100px;
-	top: 202px;
-	border: 1px solid #E71D2B;
-}
-	#banner-p {
-	position: relative;
-    left: 15px;
-    top: 189px;
-    width: 340px;
-    color: #EFEFEF;
-    font-family: 'IBM Plex Mono', monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-	}
-
+	}	
 }
 @media only screen and (min-width: 1024px) and (max-width: 1450px) {
 	#mountain-1-2 {
@@ -465,15 +500,10 @@ html,body{
     width: 629px;
     mix-blend-mode: screen;
 	}
-
 }
 /*BANNER SECTION END*/
 /*SPEAKERS SECTION*/
-#speakers{
-	margin-top: 200px;
-}
-#mountain-2{
-	position: relative;
+#mountain-2 {
 	overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -481,7 +511,6 @@ html,body{
 	height: 100%;
 	mix-blend-mode: screen;
 }
-
 #schedule-text {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
@@ -493,23 +522,63 @@ html,body{
 	color: #EFEFEF;
 	top: -245px;
 	width: 600px;
-	left: 373px;
+	margin: auto;
 }
 .timezone-text{
 	position: relative;
 	top: -250px;
-	left: -100px;
 	color: white;
 	font-size: 20px;
 	text-align: center;
+	margin: auto;
 }
 .timezone-text span{
 	color: red;
 }
-@media only screen and (max-width:600px){
+@media all and (min-width: 841px) and (max-width: 1200px) {
+	#schedule-text {
+		top: -175px !important;
+		font-size: 45px;
+		line-height: 45px;
+	}
 	.timezone-text{
-		left: 5px;
-		text-align: left;
+		top: -180px !important;
+		font-size: 25px; 
+	}
+}
+@media all and (min-width: 690px) and (max-width: 840px) {
+	#schedule-text {
+		top: -130px !important;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.timezone-text{
+		top: -125px !important;
+		font-size: 22px; 
+	}
+}
+@media all and (min-width: 451px) and (max-width: 689px) {
+	#schedule-text {
+		top: -90px !important;
+		font-size: 25px;
+		line-height: 30px;
+		width: 270px;
+	}
+	.timezone-text{
+		top: -85px !important;
+		font-size: 20px; 
+	}
+}
+@media all and (max-width: 450px) {
+	#schedule-text {
+		top: -50px !important;
+		font-size: 20px;
+		line-height: 30px;
+		width: 270px;
+	}
+	.timezone-text{
+		top: -45px !important;
+		font-size: 15px; 
 	}
 }
 #schedule-date{
@@ -522,8 +591,15 @@ html,body{
 	        box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
 	font-family: 'IBM Plex Mono', monospace;
 	text-align: left;
-	top: auto;
-	bottom: 165px;
+	top: -50px;
+}
+@media all and (max-width: 450px){
+	#schedule-date{
+		top: 0px !important;
+	}
+	#jun27 {
+		top: 0px !important;
+	}
 }
 #schedule-date p {
 	position: relative;
@@ -547,7 +623,7 @@ html,body{
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	position: relative;
-	top: -116px;
+	top: -30px;
 }
 
 .jun27-items{
@@ -684,7 +760,6 @@ html,body{
 	font-family: 'IBM Plex Mono', monospace;
 	text-align: left;
 	top: auto;
-	bottom: 70px;
 }
 #schedule-date-2 p {
 	position: relative;
@@ -708,7 +783,6 @@ html,body{
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	position: relative;
-	top: -55px;
 }
 .jun28-child{
 	display: -webkit-box;
@@ -732,7 +806,7 @@ html,body{
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 2px;
-	top: -758px;
+	top: -740px;
 	right: -40px;
 	text-align: center;
 	display: flex;
@@ -754,65 +828,25 @@ html,body{
 	height: 736px;
 	mix-blend-mode: screen;
 	position: relative;
-	top: -301px;
-	text-align: right;
-	right: -396px;
+	top: -275px;
+	left: 350px;
 }
-
-@media(max-width:700px) {
-#schedule-text {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 56px;
-    text-align: center;
-    position: relative;
-    color: #EFEFEF;
-    top: -245px;
-    width: 370px;
-    left: 13px;
-    margin: auto !important;
-}
-
-#mountain-3 {
-    width: 953px;
-    height: 736px;
-    mix-blend-mode: screen;
-    position: relative;
-    top: -301px;
-    text-align: right;
-    right: 94px;
-}
-}
-@media only screen and (max-width: 1200px) and (min-width: 700px) {
-	#schedule-text {
-		font-family: 'Work Sans', sans-serif;
-		font-style: normal;
-		font-weight: 800;
-		font-size: 38px;
-		line-height: 56px;
-		text-align: center;
-		position: relative;
-		color: #EFEFEF;
-		left: 55px;
-		margin: auto !important;
-	}	
-}
-
-@media all and (max-width: 425px){
-	#schedule-text {
-		font-size: 30px !important;
-		left: 0px !important;
-		margin: auto !important;
+@media all and (min-width: 1600px){
+	#mountain-3 {
+		left: 750px;
 	}
-} 
+}
+@media all and (max-width: 600px){
+	#mountain-3 {
+		left: 40px;
+	}
+}
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
 #highlights{
 	position: relative;
 	margin: 0;
-	top: -680px;
+	top: -700px;
 }
 
 #highlights-text-1 {
@@ -841,6 +875,7 @@ html,body{
 	margin: auto;
 }
 #youtube-thumbnail {
+	padding-top: 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -946,10 +981,6 @@ html,body{
 	height: 200px !important;
 	width: 250px !important;
 	}
-	/*.carousel-iframe-size{
-	height: 150px;
-	width: 200px;
-	}*/
 	#video-button {
 		width: 250px !important;
 		height: 44px !important;
@@ -992,7 +1023,8 @@ html,body{
 #mountain-4 {
 	mix-blend-mode: screen;
 	position: relative;
-	top: 90px;
+	top: 41px;
+	width: 100%;
 }
 #button-container {
 	display: -webkit-box;
@@ -1004,7 +1036,22 @@ html,body{
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	position: relative;
-	bottom: 74px;
+	bottom: 150px;
+}
+@media all and (min-width: 671px) and (max-width: 1055px){
+	#button-container{
+		bottom: 80px;
+	}
+}
+@media all and (min-width: 381px) and (max-width: 670px){
+	#button-container{
+		bottom: 25px;
+	}
+}
+@media all and (max-width: 380px){
+	#button-container{
+		bottom: -10px;
+	}
 }
 #button-container .button-div{
   display:-webkit-box;
@@ -1110,7 +1157,7 @@ html,body{
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
 #footer{
-	margin-top: -550px;
+	margin-top: -670px;
 	color:#EFEFEF;
 	background:#131313;
 	font-family: 'Work Sans', sans-serif;
