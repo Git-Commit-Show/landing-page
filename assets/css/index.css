@@ -1008,10 +1008,7 @@ html,body{
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 4px;
-	margin: auto ;
-	margin-top: 10px;
-	display: flex;
-	text-align: center;
+	margin-top: 30px;
 }
 #video-button a {
 	font-family: 'Work Sans', sans-serif;
@@ -1129,10 +1126,32 @@ html,body{
     margin: auto;
 	}
 }
-
-@media(max-width:400px) {
+@media only screen and (max-width:400px) {
 	#highlights-text-1 {
     width: 357px !important;
+	}
+}
+#register-button-3 {
+	width: 25%;
+	height: 49px;
+	text-align: center;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+	        box-shadow: 5px 10px 20px #000;
+	border-radius: 2px;
+}
+#register-button-3 a {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 48px;
+	color: #141414;
+	text-decoration: none;
+}
+@media only screen and (max-width:850px){
+	#register-button-3{
+		width: 60%;
 	}
 }
 /*HIGHLIGHTS SECTION*/
