@@ -1139,6 +1139,8 @@ html,body{
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 2px;
+	margin-top: 25px;
+	margin-bottom: 40px;
 }
 #register-button-3 a {
 	font-family: 'Work Sans', sans-serif;
