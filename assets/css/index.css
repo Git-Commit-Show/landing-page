@@ -285,6 +285,36 @@ html,body{
 	top: 464px;
 }
 }
+/*For 320px and small devices*/
+@media only screen and (max-width:350px)
+{
+
+#home-left-text p {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 101.5%;
+}
+#home-left-text p span {
+    font-size: 19px;
+    bottom: 41px;
+    left: 186px;
+}
+#home-left-date {
+    width: 223px;
+    height: 28px;
+    left: -30px;
+    top: 319px;
+}
+#home-left-text-2 {
+    left: 21px;
+    top: 355px;
+    font-size: 13px;
+}
+
+#register-button-1 button {
+	width:274px;
+}
+}
 @media only screen and (min-width: 1024px) and (max-width: 1450px){
 	#mountain-1-1 {
 	background-image: url(../img/mountain1-1.png);
@@ -944,6 +974,13 @@ html,body{
 		height: 200px !important;
 		width: 250px !important;
 	}
+	#video-button button {
+	font-weight: 800;
+    font-size: 17px;
+    line-height: 26px;
+    width: 250px !important;
+	
+}
 }
 @media all and (min-width : 431px) and (max-width: 680px){
 	.carousel-iframe-size{
@@ -1235,7 +1272,11 @@ html,body{
 }
 @media only screen and (max-width:400px) {
 	#highlights-text-1 {
-    width: 357px !important;
+    width: 327px !important;
+    font-size: 40px;
+	}
+	#highlights-text-2 {
+    width: 283px;
 	}
 }
 
