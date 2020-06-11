@@ -135,25 +135,24 @@ html,body{
 
 #register-button-1 {
 	position: relative;
-	width: 314px;
-	height: 49px;
 	left: 21px;
-	top: 464px;
-	text-align: center;
-	background: #EFEFEF;
-	-webkit-box-shadow: 5px 10px 20px #000;
-	        box-shadow: 5px 10px 20px #000;
-	border-radius: 2px;
+	top: 464px;	
 }
-
-#register-button-1 a {
+#register-button-1 button {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 48px;
 	color: #141414;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+	        box-shadow: 5px 10px 20px #000;
 	text-decoration: none;
+	text-align: center;
+	border:none;
+	border-radius: 2px;
+	width:314px;
 }
 @media only screen and (max-width: 1024px) and (min-width: 630px) {
 	#home-left-text {
@@ -283,27 +282,9 @@ html,body{
 }
 
 #register-button-1 {
-	position: relative;
-	width: 314px;
-	height: 49px;
 	left: 21px;
 	top: 464px;
-	text-align: center;
-	background: #EFEFEF;
-	-webkit-box-shadow: 5px 10px 20px #000;
-	        box-shadow: 5px 10px 20px #000;
-	border-radius: 2px;
 }
-
-#register-button-1 a {
-	font-family: 'Work Sans', sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 25px;
-	line-height: 48px;
-	color: #141414;
-	text-decoration: none;
-	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1450px){
 	#mountain-1-1 {
@@ -799,28 +780,23 @@ html,body{
 }
 #register-button-2 {
 	position: relative;
-	width: 390px;
-	height: 55px;
-	text-align: center;
-	background: #EFEFEF;
-	-webkit-box-shadow: 5px 10px 20px #000;
-	        box-shadow: 5px 10px 20px #000;
-	border-radius: 2px;
 	top: -740px;
-	right: -40px;
 	text-align: center;
-	display: flex;
-	text-align: center;
-	margin: auto;
 }
-#register-button-2 a {
+#register-button-2 button{
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+			box-shadow: 5px 10px 20px #000;
+	border:none;
+	border-radius: 2px;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 56px;
 	color: #141414;
 	text-decoration: none;
+	width: 25%;
 	margin: auto !important;
 }
 #mountain-3 {
@@ -905,6 +881,27 @@ html,body{
 	height: 195px;
 	width: 348px;
 }
+#video-button {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+}
+#video-button button {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 21px;
+	line-height: 56px;
+	color: #141414;
+	margin: auto !important;
+	text-decoration: none;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+	        box-shadow: 5px 10px 20px #000;
+	border-radius: 2px;
+	border : none;
+	
+}
 @media all and (max-width: 430px){
 	.carousel-iframe-size{
 	height: 200px !important;
@@ -952,22 +949,15 @@ html,body{
 		    -ms-flex: 0 1 300px !important;
 		        flex: 0 1 300px !important;
 	}
-	#video-button {
-		width: 250px !important;
-		height: 58px !important;
-	}
-	#video-button a {
-		font-size: 18px !important;
-		line-height: 20px !important;
-	}
-	#register-button-2 {
-		width: 320px !important;
-		height: 48px !important;
-		right: 0px !important;
-	}
-	#register-button-2 a {
+	#video-button button {
 		font-size: 18px !important;
 		line-height: 48px !important;
+		width: auto;
+	}
+	#register-button-2 button {
+		font-size: 18px !important;
+		line-height: 48px !important;
+		width: 80%;
 	}
 }
 @media all and (min-width: 1100px){
@@ -981,45 +971,18 @@ html,body{
 	height: 200px !important;
 	width: 250px !important;
 	}
-	#video-button {
-		width: 250px !important;
-		height: 44px !important;
-	}
 	#video-button a {
 		font-size: 14px !important;
-		line-height: 44px !important;
-	}
-	#register-button-2 {
-		width: 250px !important;
-		height: 44px !important;
-		right: -15px !important;
+		line-height: 40px !important;
+		width: auto;
 	}
 	#register-button-2 a {
 		font-size: 14px !important;
 		line-height: 44px !important;
+		width: 70%;
 	}
 }	
-#video-button {
-	position: relative;
-	width: 378px;
-	height: 55px;
-	text-align: center;
-	background: #EFEFEF;
-	-webkit-box-shadow: 5px 10px 20px #000;
-	        box-shadow: 5px 10px 20px #000;
-	border-radius: 4px;
-	margin-top: 30px;
-}
-#video-button a {
-	font-family: 'Work Sans', sans-serif;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 21px;
-	line-height: 56px;
-	color: #141414;
-	margin: auto !important;
-	text-decoration: none;
-}
+
 #mountain-4 {
 	mix-blend-mode: screen;
 	position: relative;
@@ -1150,16 +1113,23 @@ html,body{
 	line-height: 48px;
 	color: #141414;
 	text-decoration: none;
+	text-align: center;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+			box-shadow: 5px 10px 20px #000;
+	border:none;
+	border-radius: 2px;
+	width:25%;
 }
 @media only screen and (max-width:850px){
-	#register-button-3{
+	#register-button-3 button{
 		width: 60%;
 	}
 }
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
 #footer{
-	margin-top: -670px;
+	margin-top: -600px;
 	color:#EFEFEF;
 	background:#131313;
 	font-family: 'Work Sans', sans-serif;
