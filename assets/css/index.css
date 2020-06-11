@@ -1238,6 +1238,9 @@ html,body{
     width: 357px !important;
 	}
 }
+#register-button-3 {
+	padding-top: 40px;
+}
 
 #register-button-3 button {
 	font-family: 'Work Sans', sans-serif;
