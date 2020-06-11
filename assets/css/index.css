@@ -975,12 +975,10 @@ html,body{
 		width: 250px !important;
 	}
 	#video-button button {
-	font-weight: 800;
-    font-size: 17px;
-    line-height: 26px;
-    width: 250px !important;
-	
-}
+		font-weight: 800;
+    	font-size: 17px;
+    	line-height: 26px;	
+	}
 }
 @media all and (min-width : 431px) and (max-width: 680px){
 	.carousel-iframe-size{
@@ -1116,7 +1114,7 @@ html,body{
 	#video-button button {
 		font-size: 18px !important;
 		line-height: 48px !important;
-		width: auto;
+		width: auto !important;
 	}
 }
 @media all and (max-width: 570px) and (min-width: 391px){
@@ -1297,11 +1295,16 @@ html,body{
 			box-shadow: 5px 10px 20px #000;
 	border:none;
 	border-radius: 2px;
-	width:25%;
+	width:30%;
 }
-@media only screen and (max-width:850px){
+@media only screen and (min-width:400px) and (max-width:850px){
 	#register-button-3 button{
-		width: 60%;
+		width: 60% !important;
+	}
+}
+@media all and (max-width: 399px){
+	#register-button-3 button{
+		width: 70% !important;
 	}
 }
 /*HIGHLIGHTS SECTION*/
