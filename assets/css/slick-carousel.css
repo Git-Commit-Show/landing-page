@@ -1,10 +1,11 @@
 .slider, .slick-arrow {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .slider .items { 
 	margin-top: 30px !important;
-	margin-bottom: 50px !important;
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -16,7 +17,11 @@
 		margin-left: 0px !important;
 	} 
 }
-
+@media all and (min-width: 600px){
+	.slider .items { 
+		margin-bottom: 30px !important; 
+	}
+} 
 .slider .items .overlay {
 	position: absolute;
 	top: 0;
@@ -29,13 +34,19 @@
 }
 
 .slider .items iframe {
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
 	transition: all linear .3s;
 }
 
 .slider .slick-center iframe {
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 .slick-arrow {
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
