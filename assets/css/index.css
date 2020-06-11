@@ -285,6 +285,76 @@ html,body{
 	top: 464px;
 }
 }
+/*For 320px and small devices*/
+@media only screen and (max-width:350px)
+{
+
+#home-left-text p {
+	font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 101.5%;
+}
+#home-left-text p span {
+	display: inline;
+    position: absolute;
+    font-size: 19px;
+    bottom: 41px;
+    left: 186px;
+}
+#home-left-date {
+	position: absolute;
+    width: 223px;
+    height: 28px;
+    left: -30px;
+    top: 319px;
+    background: #E71D2B;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
+            box-shadow: 5px 10px 12px rgba(0,0,0,0.7);
+    font-family: 'IBM Plex Mono', monospace;
+}
+#home-left-date p {
+	position: absolute;
+    left: 87px;
+    top: -19px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 68px;
+    color: #141414;
+}
+#home-left-text-2 {
+	position: absolute;
+    left: 21px;
+    top: 355px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: #EFEFEF;
+    text-shadow: 0px 0px 5px #0fffffc9;
+}
+
+#register-button-1 {
+	left: 21px;
+	top: 464px;
+}
+#register-button-1 button {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 48px;
+	color: #141414;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+	        box-shadow: 5px 10px 20px #000;
+	text-decoration: none;
+	text-align: center;
+	border:none;
+	border-radius: 2px;
+	width:274px;
+}
+}
 @media only screen and (min-width: 1024px) and (max-width: 1450px){
 	#mountain-1-1 {
 	background-image: url(../img/mountain1-1.png);
@@ -944,6 +1014,13 @@ html,body{
 		height: 200px !important;
 		width: 250px !important;
 	}
+	#video-button button {
+	font-weight: 800;
+    font-size: 17px;
+    line-height: 26px;
+    width: 250px !important;
+	
+}
 }
 @media all and (min-width : 431px) and (max-width: 680px){
 	.carousel-iframe-size{
@@ -1235,7 +1312,11 @@ html,body{
 }
 @media only screen and (max-width:400px) {
 	#highlights-text-1 {
-    width: 357px !important;
+    width: 327px !important;
+    font-size: 40px;
+	}
+	#highlights-text-2 {
+    width: 283px;
 	}
 }
 
