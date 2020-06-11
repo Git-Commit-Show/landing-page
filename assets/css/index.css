@@ -509,7 +509,7 @@ html,body{
 	position: relative;
 	top: -250px;
 	color: white;
-	font-size: 20px;
+	font-size: large;
 	text-align: center;
 	margin: auto;
 }
@@ -1094,8 +1094,18 @@ html,body{
     width: 357px !important;
 	}
 }
-
-#register-button-3 button {
+#register-button-3 {
+	width: 25%;
+	height: 49px;
+	text-align: center;
+	background: #EFEFEF;
+	-webkit-box-shadow: 5px 10px 20px #000;
+	        box-shadow: 5px 10px 20px #000;
+	border-radius: 2px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+#register-button-3 a {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 600;
@@ -1125,11 +1135,12 @@ html,body{
 	font-family: 'Work Sans', sans-serif;
 	font-weight: normal;
 	box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.75);
+	
 }
 #footer .footer-child span {
 	text-align: center;
 	font-size: 14px;
-	line-height: 15px;
+	line-height: 18px;
 	padding-top: 15px;
 }
 #footer .footer-child h3{
@@ -1148,6 +1159,11 @@ html,body{
 	-webkit-transform: scale(1.2);
 	    -ms-transform: scale(1.2);
 	        transform: scale(1.2);
+}
+.footer-item {
+    text-align: center;
+	font-size: initial;
+	line-height: 1.5;
 }
 .mobile-hide{
 	display: block;
