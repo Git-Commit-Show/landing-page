@@ -11,6 +11,7 @@ body {
 	padding: 0px;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
+	background: -o-radial-gradient(22.6% 18.1%, 85.6% 215.15%, #090909 0%, #242424 100%);
 	background: radial-gradient(85.6% 215.15% at 22.6% 18.1%, #090909 0%, #242424 100%);
 }
 html,body{
@@ -368,8 +369,13 @@ html,body{
     mix-blend-mode: screen;
 }
 #banner-div {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin: auto;
 	padding-top: 90px;
 	width: -webkit-fit-content;
@@ -379,16 +385,26 @@ html,body{
 
 #banner-span {
 	width: 14%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	text-align: left;
-	align-self: flex-start;
+	-ms-flex-item-align: start;
+	    align-self: flex-start;
 }
 #banner-hr {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-self: flex-start;
+	-ms-flex-item-align: start;
+	    align-self: flex-start;
 	width: 100%;
-	align-content: flex-start;
+	-ms-flex-line-pack: start;
+	    align-content: flex-start;
 	border: 1px solid #E71D2B;
 }
 #banner-p {
@@ -1253,7 +1269,8 @@ html,body{
 	background:#131313;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: normal;
-	box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.75);
 }
 #footer .footer-child span {
 	font-size: 14px;

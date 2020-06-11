@@ -1,4 +1,6 @@
 .slider, .slick-arrow {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -32,13 +34,19 @@
 }
 
 .slider .items iframe {
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
 	transition: all linear .3s;
 }
 
 .slider .slick-center iframe {
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 .slick-arrow {
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
