@@ -437,6 +437,11 @@ html,body{
 		line-height: 15px !important;
 	}	
 }
+@media all and (min-width: 1801px){
+	#banner-div {
+		margin-left: 600px !important;
+	}
+}
 #timer-div{
 	padding-top: 60px;
 }
@@ -514,26 +519,16 @@ html,body{
 .timezone-text span{
 	color: red;
 }
-@media all and (min-width: 841px) and (max-width: 1200px) {
+@media all and (max-width: 450px) {
 	#schedule-text {
-		top: -175px !important;
-		font-size: 45px;
-		line-height: 45px;
-	}
-	.timezone-text{
-		top: -180px !important;
-		font-size: 25px; 
-	}
-}
-@media all and (min-width: 690px) and (max-width: 840px) {
-	#schedule-text {
-		top: -130px !important;
-		font-size: 30px;
+		top: -50px !important;
+		font-size: 20px;
 		line-height: 30px;
+		width: 270px;
 	}
 	.timezone-text{
-		top: -125px !important;
-		font-size: 22px; 
+		top: -45px !important;
+		font-size: 15px; 
 	}
 }
 @media all and (min-width: 451px) and (max-width: 689px) {
@@ -548,16 +543,26 @@ html,body{
 		font-size: 20px; 
 	}
 }
-@media all and (max-width: 450px) {
+@media all and (min-width: 690px) and (max-width: 840px) {
 	#schedule-text {
-		top: -50px !important;
-		font-size: 20px;
+		top: -130px !important;
+		font-size: 30px;
 		line-height: 30px;
-		width: 270px;
 	}
 	.timezone-text{
-		top: -45px !important;
-		font-size: 15px; 
+		top: -125px !important;
+		font-size: 22px; 
+	}
+}
+@media all and (min-width: 841px) and (max-width: 1200px) {
+	#schedule-text {
+		top: -175px !important;
+		font-size: 45px;
+		line-height: 45px;
+	}
+	.timezone-text{
+		top: -180px !important;
+		font-size: 25px; 
 	}
 }
 #schedule-date{

@@ -4,7 +4,6 @@
 
 .slider .items { 
 	margin-top: 30px !important;
-	margin-bottom: 50px !important;
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -16,7 +15,11 @@
 		margin-left: 0px !important;
 	} 
 }
-
+@media all and (min-width: 600px){
+	.slider .items { 
+		margin-bottom: 30px !important; 
+	}
+} 
 .slider .items .overlay {
 	position: absolute;
 	top: 0;
