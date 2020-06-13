@@ -931,6 +931,7 @@ html,body{
 	height: 73px;
 	margin: auto;
 }
+/*
 .slider-span p:nth-of-type(1){
 	padding-top: 15px;
 	font-family: IBM Plex Mono;
@@ -951,18 +952,6 @@ html,body{
 	color: #EFEFEF;
 	text-align: left !important;
 }
-#more1 {
-	display: none;
-}
-#more2 {
-	display: none;
-}
-#more3 {
-	display: none;
-}
-#more4 {
-	display: none;
-}
 
 .slider-span > button {
 	background: #222;
@@ -974,7 +963,61 @@ html,body{
     line-height: 0vh;
     color: #EFEFEF;
     cursor: pointer;
+}*/
+
+.expandMoreContent p:nth-of-type(1){
+
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 23px;
+	color: #EFEFEF;
+	text-align: left!important;
 }
+ 
+.expandMoreContent p:nth-of-type(2){
+
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 19px;
+	color: #EFEFEF;
+	text-align: left !important;
+	/*text-indent: 10px;*/
+	word-wrap: break-word;
+}
+.expandMoreContent{
+	font-family: IBM Plex Mono;
+	font-size: 18px;
+	margin-top: 40px;
+	height: 80px;
+	overflow: hidden;
+	transition: height 0.5s ease-in-out;
+	color: #EFEFEF;
+	text-align: center;
+}
+
+.expandMoreContent.expand-active{
+	font-size: 22px;
+	height: auto;
+	font-family: IBM Plex Mono;
+	transition: height 0.5s ease-in-out;
+	color: #EFEFEF;
+}
+.expandMoreHolder{
+	padding:15px 0;
+	text-align:center;
+	color: #EFEFEF;
+}
+.btn-expand-more{
+	height: 10px;
+	cursor: pointer;
+	display: inline-block;
+    text-align: left;
+}
+
 #youtube-thumbnail {
 	padding-top: 40px;
 	display: -webkit-box;
