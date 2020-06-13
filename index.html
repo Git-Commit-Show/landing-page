@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/calender.js">
     <script src="assets/js/count.js"></script>
+  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -350,12 +351,17 @@
                         allowfullscreen></iframe>
                     <param name="allowFullScreen" value="true" />
                     <param name="allowscriptaccess" value="false" />
-                    <span class="slider-span">
-                        <p>How to start a new open source project?</p>
-                        <p>Advice by Daniel Stenberg, author of cURL. He has been <span id="dots1">...</span><span id="more1">
-                        programming since 1985 and maintains popular project cURL. Hear it from him how to start a new open source project.</span></p>
-                        <button onclick="myFunction1()" id="myBtn1">Read more</button>
-                    </span>
+                    <div class="description">
+                        <div class="expandMoreContent" id="showMoreContent1">
+                            <p>How to start a new open source project?</p>
+                        <p>Advice by Daniel Stenberg,author of cURL.He has been programming since 1985 and maintains popular project cURL.Hear it from him how to start a new open source project.</p>
+                        </div>
+                        <div class="expandMoreHolder">
+                            <span expand-more data-hidetext="Read Less..." data-showtext="Read More.." data-target="showMoreContent1" class="btn-expand-more">...Read More</span>
+
+                        </div>
+                    </div>
+    
                 </div>
                 <div class="items">
                     <iframe class="carousel-iframe-size" src="https://www.youtube.com/embed/rtP8RmoAaCw" frameborder="0"
@@ -363,13 +369,17 @@
                         allowfullscreen></iframe>
                     <param name="allowFullScreen" value="true" />
                     <param name="allowscriptaccess" value="false" />
-                    <span class="slider-span">
-                        <p>Showcase: Turning phone into 3D mouse</p>
-                        <p>A clip from demo of a 3D mouse by it's creator Akhil. We have used <span id="dots2">...</span><span id="more2">
-                        computer mouse that works on a 2D surface. What if we had a mouse that moves on z-axis also! And that 3D mouse can be your own phone, with no wire, no cpmplex setup! Opens up numerous new opportunities, isn't it?
-                        </span></p>
-                        <button onclick="myFunction2()" id="myBtn2">Read more</button>
-                    </span>
+                    <div class="description">
+                        <div class="expandMoreContent" id="showMoreContent2">
+                            <p>Showcase: Turning phone into 3D mouse</p>
+                        <p> A clip from demo of a 3D mouse by it's creator Akhil.   We have used computer mouse that works on a 2D surface.What if we had a mouse that moves on z-axis also! And that 3D mouse can be your own phone,with no wire,no complex setup! Opens up numerous new opportunities, isn't it?</p>
+                        </div>
+                        <div class="expandMoreHolder">
+                            <span expand-more data-hidetext="Read Less..." data-showtext="Read More.." data-target="showMoreContent2" class="btn-expand-more">...Read More</span>
+
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="items">
                     <iframe class="carousel-iframe-size" src="https://www.youtube.com/embed/8q739FevyNM" frameborder="0"
@@ -377,14 +387,17 @@
                         allowfullscreen></iframe>
                     <param name="allowFullScreen" value="true" />
                     <param name="allowscriptaccess" value="false" />
-                    <span class="slider-span">
-                        <p>Machine Learning building blocks</p>
-                        <p>A clip from masterclass session "Get started with machine learning". <span id="dots3">...</span><span id="more3">
-                            Sandeep shares about building blocks of ML: Features, Labels and Instances.
-                            </span>
-                        </p>
-                        <button onclick="myFunction3()" id="myBtn3">Read more</button>
-                    </span>
+                   <div class="description">
+                        <div class="expandMoreContent" id="showMoreContent3">
+                            <p>Machine Learning building blocks</p>
+                        <p> A clip from masterclass session "Get started with machine learning".Sandeep shares about building blocks of ML: Features, Labels and Instances.</p>
+                        </div>
+                        <div class="expandMoreHolder">
+                            <span expand-more data-hidetext="Read Less..." data-showtext="Read More.." data-target="showMoreContent3" class="btn-expand-more">...Read More</span>
+
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="items">
                     <iframe class="carousel-iframe-size" src="https://www.youtube.com/embed/j7WIW9d0EnQ" frameborder="0"
@@ -392,13 +405,15 @@
                         allowfullscreen></iframe>
                     <param name="allowFullScreen" value="true" />
                     <param name="allowscriptaccess" value="false" />
-                    <span class="slider-span">
-                        <p>How much time to adoption of HTTP3?</p>
-                        <p>A clip from Q&A session with Daniel Stenberg.Getting to know <span id="dots4">...</span><span id="more4">
-                            about the status of the development in web. </span>
-                        </p>
-                        <button onclick="myFunction4()" id="myBtn4">Read more</button>
-                    </span>
+                   <div class="description">
+                        <div class="expandMoreContent" id="showMoreContent4">
+                            <p>How much time to adoption of HTTP3?</p>
+                        <p> A clip from Q&A (Question And Answer) session with Daniel Stenberg . Getting to know about the status of the development in web.</p>
+                        </div>
+                        <div class="expandMoreHolder">
+                            <span expand-more data-hidetext="Read Less..." data-showtext="Read More.." data-target="showMoreContent4" class="btn-expand-more">...Read More</span>
+                </div>
+            </div> 
                 </div>
             </div>
         </div>
@@ -586,6 +601,26 @@
     </div>
     <!---FOOTER SECTION END--->
     <!-- SCRIPTS -->
+    <script>
+        $(document).ready(function(){
+            var readMoreHtml= $(".read-more").html();
+            var lessText=readMoreHtml.substr(0,20);
+            if(readMoreHtml.length>20){
+                $(".read-more").html(lessText).append("<a href='' class='read-more-link'>  Show More </a>");
+            }
+            else{
+                $(".read-more").html(readMoreHtml);
+            }
+            $("body").on("click",".read-more-link",function(event){
+                event.preventDefault();
+                $(this).parent(".read-more").html(readMoreHtml).append("<a href='' class='show-less-link'>Show Less </a>");
+            });
+            $("body").on("click",".show-less-link",function(event){
+                event.preventDefault();
+                $(this).parent(".read-more").html(readMoreHtml.substr(0,20)).append("<a href='' class='read-more-link'>Show More </a>")
+            });
+        });
+        </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
