@@ -906,6 +906,7 @@ html,body{
 	font-size: 18px;
 	line-height: 23px;
 	color: #EFEFEF;
+	text-align: left!important;
 }
  
 .slider-span p:nth-of-type(2){
@@ -915,7 +916,31 @@ html,body{
 	font-size: 10px;
 	line-height: 16px;
 	color: #EFEFEF;
-	text-align: left;
+	text-align: left !important;
+}
+#more1 {
+	display: none;
+}
+#more2 {
+	display: none;
+}
+#more3 {
+	display: none;
+}
+#more4 {
+	display: none;
+}
+
+.slider-span > button {
+	background: #222;
+    height: 32px;
+    min-width: 100px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 0vh;
+    color: #EFEFEF;
+    cursor: pointer;
 }
 #youtube-thumbnail {
 	padding-top: 40px;
@@ -989,11 +1014,15 @@ html,body{
 		padding-top: 20px;
 		font-size: 18px;
 		line-height: 23px;
+		padding-left: 10px;
+		padding-right : 10px;
 	}
  
 	.slider-span p:nth-of-type(2){
 		font-size: 15px;
 		line-height: 16px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 }
@@ -1020,14 +1049,18 @@ html,body{
 	}
 	.slider-span p:nth-of-type(1){
 		padding-top: 30px;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 18px;
+		padding-left: 10px;
+		padding-right : 10px;
 	}
  
 	.slider-span p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 350px;
+		padding-left: 10px;
+		padding-right : 10px;
 	}
 }
 @media all and (min-width: 1050px) and (max-width: 1198px){
@@ -1035,6 +1068,8 @@ html,body{
 		font-size: 12px;
 		line-height: 15px;
 		width: 500px;
+		padding-left: 10px;
+		padding-right : 10px;
 	}
 }
 @media all and (min-width: 1199px) and (max-width: 1280px){
@@ -1044,27 +1079,52 @@ html,body{
 	}
 	.slider-span p:nth-of-type(1){
 		padding-top: 20px;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 20px;
+		padding-left: 30px;
+		padding-right: 10px;
 	}
  
 	.slider-span p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 360px;
+		padding-left: 30px;
+		padding-right : 10px;
+	}
+}
+@media all and (min-width: 1281px) and (max-width: 1349px) {
+	.slider-span p:nth-of-type(1){
+		padding-top: 20px;
+		font-size: 18px;
+		line-height: 20px;
+		padding-left: 15px;
+		padding-right : 10px;
+	}
+ 
+	.slider-span p:nth-of-type(2){
+		font-size: 10px;
+		line-height: 15px;
+		width: 360px;
+		padding-left: 15px;
+		padding-right : 10px;
 	}
 }
 @media all and (min-width: 1350px) and (max-width: 1500px) {
 	.slider-span p:nth-of-type(1){
 		padding-top: 20px;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 20px;
+		padding-left: 25px;
+		padding-right : 10px;
 	}
  
 	.slider-span p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 360px;
+		padding-left: 25px;
+		padding-right : 10px;
 	}
 }
 
@@ -1073,12 +1133,15 @@ html,body{
 		padding-top: 30px;
 		font-size: 25px;
 		line-height: 20px;
+		padding-left: 40px;
+		padding-right : 20px;
 	}
 	.slider-span p:nth-of-type(2){
 		font-size: 15px;
 		line-height: 15px;
 		width: 500px;
 		padding-left: 40px;
+		padding-right : 20px;
 	}
 }
 @media all and (min-width: 1861px){
@@ -1086,12 +1149,15 @@ html,body{
 		padding-top: 40px;
 		font-size: 30px;
 		line-height: 30px;
+		padding-left: 50px;
+		padding-right : 20px;
 	}
 	.slider-span p:nth-of-type(2){
 		font-size: 20px;
 		line-height: 25px;
 		width: 550px;
 		padding-left: 50px;
+		padding-right : 20px;
 	}
 }
 @media all and (min-width: 1600px){
