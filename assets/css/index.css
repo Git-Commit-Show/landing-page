@@ -154,35 +154,20 @@ html,body{
 	width:314px;
 	}
 	
-#register-button-1 button:hover, #register-button-1 button:focus{
-	box-shadow: 1px 3px 5px #e71d2b; 
-    text-transform: uppercase;
-    transition: background .6s ease;
-    background: white;
+#register-button-1 button:hover, #register-button-1 button:focus{ 
+    background: #fff;
 	}
 #register-button-2 button:hover, #register-button-2 button:focus{
-	box-shadow: 1px 3px 5px #e71d2b; 
-    text-transform: uppercase;
-    transition: background .6s ease;
-    background: white;
+    background: #fff;
 	}
 #register-button-3 button:hover, #register-button-3 button:focus{
-	box-shadow: 1px 3px 5px #e71d2b; 
-    text-transform: uppercase;
-    transition: background .6s ease;
-    background: white;
+    background: #fff;
 	}
 #video-button button:hover, #video-button button:focus{
-	box-shadow: 1px 3px 5px #e71d2b; 
-    text-transform: uppercase;
-    transition: background .6s ease;
-    background: white;
+    background: #fff;
 	}
 .button-div a:hover, .button-div a:focus{
-	box-shadow: 1px 3px 5px #e71d2b; 
-    text-transform: uppercase;
-    transition: background .6s ease;
-    background: white;
+    background: #fff;
 	}
 
 
