@@ -8,7 +8,6 @@
 .slick-slider
 {
     position: relative;
-
     display: block;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -28,7 +27,6 @@
 .slick-list
 {
     position: relative;
-
     display: block;
     overflow: hidden;
 
@@ -121,22 +119,50 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-.control-c {
+.control-c-left{
     width: 30px;
     height: 30px;
+    margin: 0% 2% 10% 5%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+
 }
+.control-c-right{
+    width: 30px;
+    height: 30px;
+    margin: 0% 5% 10% 2%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+}
+
 @media all and (min-width: 681px) and (max-width: 1200px){
-   .control-c {
-        width: 50px !important;
-        height: 50px !important;
-    } 
-} 
+    .control-c-left{
+        width: 40px;
+        height: 40px;
+        margin: 0% 1% 10% 5% ;
+        align-items: center;
+    }
+    .control-c-right{
+        width: 40px;
+        height: 40px;
+        margin: 0% 5% 10% 1%;
+        align-items: center;
+    }
+  
+}
 @media all and (min-width: 1201px){
-   .control-c {
-        width: 60px !important;
-        height: 60px !important;
-    } 
+  
+    .control-c-left{
+        width: 40px;
+        height: 40px;
+        margin: 0% 1% 10% 5%;
+    }
+    .control-c-right{
+        width: 40px;
+        height: 40px;
+        margin: 0% 5% 10% 1%;
+    }
 } 

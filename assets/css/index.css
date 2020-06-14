@@ -932,15 +932,18 @@ html,body{
 	margin: auto;
 }
 
+/*description and read more*/
+
 .expandMoreContent p:nth-of-type(1){
 
 	font-family: IBM Plex Mono;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 23px;
 	color: #EFEFEF;
 	text-align: left!important;
+	margin-top: 30px;
 }
  
 .expandMoreContent p:nth-of-type(2){
@@ -957,9 +960,9 @@ html,body{
 }
 .expandMoreContent{
 	font-family: IBM Plex Mono;
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 40px;
-	height: 80px;
+	height: 170px;
 	overflow: hidden;
 	transition: height 0.5s ease-in-out;
 	color: #EFEFEF;
@@ -970,7 +973,7 @@ html,body{
 	font-size: 22px;
 	height: auto;
 	font-family: IBM Plex Mono;
-	transition: height 0.5s ease-in-out;
+	transition: height 0s ease-in-out;
 	color: #EFEFEF;
 }
 .expandMoreHolder{
@@ -1053,7 +1056,7 @@ html,body{
 		height: 250px !important;
 		width: 300px !important;
 	}
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 20px;
 		font-size: 18px;
 		line-height: 23px;
@@ -1061,7 +1064,7 @@ html,body{
 		padding-right : 10px;
 	}
  
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 15px;
 		line-height: 16px;
 		padding-left: 10px;
@@ -1074,13 +1077,13 @@ html,body{
 		height: 300px !important;
 		width: 500px !important;
 	}
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 30px;
 		font-size: 25px;
 		line-height: 23px;
 	}
  
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 15px;
 		line-height: 16px;
 	}
@@ -1090,7 +1093,7 @@ html,body{
 		height: 230px !important;
 		width: 300px !important;
 	}
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 30px;
 		font-size: 18px;
 		line-height: 18px;
@@ -1098,7 +1101,7 @@ html,body{
 		padding-right : 10px;
 	}
  
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 350px;
@@ -1107,7 +1110,7 @@ html,body{
 	}
 }
 @media all and (min-width: 1050px) and (max-width: 1198px){
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 500px;
@@ -1120,7 +1123,7 @@ html,body{
 		height: 230px !important;
 		width: 300px !important;
 	}
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 20px;
 		font-size: 18px;
 		line-height: 20px;
@@ -1128,7 +1131,7 @@ html,body{
 		padding-right: 10px;
 	}
  
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 360px;
@@ -1137,7 +1140,7 @@ html,body{
 	}
 }
 @media all and (min-width: 1281px) and (max-width: 1349px) {
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 20px;
 		font-size: 18px;
 		line-height: 20px;
@@ -1145,7 +1148,7 @@ html,body{
 		padding-right : 10px;
 	}
  
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 10px;
 		line-height: 15px;
 		width: 360px;
@@ -1154,7 +1157,7 @@ html,body{
 	}
 }
 @media all and (min-width: 1350px) and (max-width: 1500px) {
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 20px;
 		font-size: 18px;
 		line-height: 20px;
@@ -1162,7 +1165,7 @@ html,body{
 		padding-right : 10px;
 	}
  
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 12px;
 		line-height: 15px;
 		width: 360px;
@@ -1172,14 +1175,14 @@ html,body{
 }
 
 @media all and (min-width: 1501px) and (max-width: 1860px){
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 30px;
 		font-size: 25px;
 		line-height: 20px;
 		padding-left: 40px;
 		padding-right : 20px;
 	}
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 15px;
 		line-height: 15px;
 		width: 500px;
@@ -1188,14 +1191,14 @@ html,body{
 	}
 }
 @media all and (min-width: 1861px){
-	.slider-span p:nth-of-type(1){
+	.expandMoreContent p:nth-of-type(1){
 		padding-top: 40px;
 		font-size: 30px;
 		line-height: 30px;
 		padding-left: 50px;
 		padding-right : 20px;
 	}
-	.slider-span p:nth-of-type(2){
+	.expandMoreContent p:nth-of-type(2){
 		font-size: 20px;
 		line-height: 25px;
 		width: 550px;

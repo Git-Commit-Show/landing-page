@@ -49,7 +49,7 @@
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
-                centerPadding: '50px',
+                centerPadding: '100px',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
                     return $('<button type="button" />').text(i + 1);
@@ -586,6 +586,7 @@
                 .css({
                     'width':(100 / _.options.slidesPerRow) + '%',
                     'display': 'inline-block'
+                    
                 });
 
         }
