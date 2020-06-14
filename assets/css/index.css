@@ -578,20 +578,20 @@ html,body{
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 48px;
+	font-size: 50px;
 	line-height: 56px;
 	text-align: center;
 	position: relative;
 	color: #EFEFEF;
-	top: -245px;
-	width: 600px;
+	top: -180px;
+	width: 620px;
 	margin: auto;
 }
 .timezone-text{
 	position: relative;
-	top: -250px;
+	top: -170px;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	margin: auto;
 }
@@ -862,7 +862,8 @@ html,body{
 }
 #register-button-2 {
 	position: relative;
-	top: -740px;
+	top: -840px;
+	right: -300px;
 	text-align: center;
 }
 #register-button-2 button{
@@ -879,6 +880,7 @@ html,body{
 	color: #141414;
 	text-decoration: none;
 	margin: auto !important;
+	width: 30%;
 }
 #mountain-3 {
 	width: 953px;
@@ -933,7 +935,6 @@ html,body{
 }
 
 .expandMoreContent p:nth-of-type(1){
-
 	font-family: IBM Plex Mono;
 	font-style: normal;
 	font-weight: bold;
@@ -1210,6 +1211,21 @@ html,body{
 	}
 }
 
+@media all and (max-width: 1200px){
+	#register-button-2{
+		top:-740px;
+		right:-56px;
+	}
+	#register-button-2 button {
+		font-size: 18px !important;
+		line-height: 48px !important;
+		width: 50%;
+	}
+	.iframe-size{
+	height: 600px;
+	width: 750px;
+	}	
+}
 @media all and (max-width: 570px) and (min-width: 350px){
 	.iframe-size{
 	height: 280px !important;
@@ -1225,35 +1241,28 @@ html,body{
 		line-height: 48px !important;
 		width: auto !important;
 	}
-}
-@media all and (max-width: 570px) and (min-width: 391px){
+	#register-button-2{
+		top:-740px;
+		right:0px;
+	}
 	#register-button-2 button {
 		font-size: 18px !important;
 		line-height: 48px !important;
-		width: 80%;
-	}
-}
-@media all and (max-width: 390px) and (min-width: 329px){
-	#register-button-2 button {
-		font-size: 15px !important;
-		line-height: 38px !important;
-		width: 80%;
+		width: 70%;
 	}
 }
 @media all and (max-width: 328px){
+	#register-buuton{
+		top:-740px;
+		right:0px;
+	}
 	#register-button-2 button {
 		font-size: 13px !important;
-		line-height: 35px !important;
-		width: 70%;
+		line-height: 30sspx !important;
+		width: 60%;
 	}
 } 
 
-@media all and (min-width: 1100px){
-	.iframe-size{
-	height: 600px;
-	width: 750px;
-	}	
-}
 @media all and (max-width: 350px){
 	.iframe-size{
 	height: 200px !important;
@@ -1263,6 +1272,10 @@ html,body{
 		font-size: 14px !important;
 		line-height: 40px !important;
 		width: auto;
+	}
+	#register-buuton{
+		top:-740px;
+		right:0px;
 	}
 	#register-button-2 a {
 		font-size: 14px !important;
