@@ -2,6 +2,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	vertical-align:super;
 }
 
 .slider .items { 
