@@ -144,7 +144,7 @@ html,body{
 	font-size: 25px;
 	line-height: 48px;
 	color: #141414;
-	background: #EFEFEF;
+	background: #d4d4ff;
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	text-decoration: none;
@@ -166,8 +166,8 @@ html,body{
 #video-button button:hover, #video-button button:focus{
     background: #fff;
 	}
-.button-div a:hover, .button-div a:focus{
-    background: #fff;
+.button-div li a:hover, .button-div li a:focus{
+    background: #fff !important;
 	}
 
 
@@ -854,7 +854,7 @@ html,body{
 #register-button-2 button{
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
-	background: #EFEFEF;
+	background: #d4d4ff;
 	-webkit-box-shadow: 5px 10px 20px #000;
 			box-shadow: 5px 10px 20px #000;
 	border:none;
@@ -1019,7 +1019,7 @@ html,body{
 	color: #141414;
 	margin: auto !important;
 	text-decoration: none;
-	background: #EFEFEF;
+	background: #d4d4ff;
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 2px;
@@ -1248,11 +1248,10 @@ html,body{
 	}
 	#register-button-2 button {
 		font-size: 13px !important;
-		line-height: 30sspx !important;
-		width: 80%;
+		line-height: 30px !important;
+		width: 90%;
 	}
 } 
-
 @media all and (max-width: 350px){
 	.iframe-size{
 	height: 200px !important;
@@ -1263,18 +1262,16 @@ html,body{
 		line-height: 40px !important;
 		width: auto;
 	}
-	#register-button{
+	#register-button-2{
 		top:-740px;
 		right:0px;
 	}
 	#register-button-2 a {
-		font-size: 14px !important;
+		font-size: 13px !important;
 		line-height: 28px !important;
-		padding: 2%;
-		width: 80%;
+		width: 90%;
 	}
 }	
-
 #mountain-4 {
 	mix-blend-mode: screen;
 	position: relative;
@@ -1403,7 +1400,7 @@ html,body{
 	color: #141414;
 	text-decoration: none;
 	text-align: center;
-	background: #EFEFEF;
+	background: #d4d4ff;
 	-webkit-box-shadow: 5px 10px 20px #000;
 			box-shadow: 5px 10px 20px #000;
 	border:none;
