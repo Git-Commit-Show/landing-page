@@ -1202,11 +1202,12 @@ html,body{
 @media all and (max-width: 1200px){
 	#register-button-2{
 		top:-740px;
-		right:-56px;
+		right:0%;
 	}
 	#register-button-2 button {
 		font-size: 18px !important;
-		line-height: 48px !important;
+		line-height: 28px !important;
+		padding: 2%;
 		width: 50%;
 	}
 	.iframe-size{
@@ -1235,19 +1236,20 @@ html,body{
 	}
 	#register-button-2 button {
 		font-size: 18px !important;
-		line-height: 48px !important;
-		width: 70%;
+		line-height: 28px !important;
+		padding: 2%;
+		width: 80%;
 	}
 }
 @media all and (max-width: 328px){
-	#register-buuton{
+	#register-button{
 		top:-740px;
 		right:0px;
 	}
 	#register-button-2 button {
 		font-size: 13px !important;
 		line-height: 30sspx !important;
-		width: 60%;
+		width: 80%;
 	}
 } 
 
@@ -1261,14 +1263,15 @@ html,body{
 		line-height: 40px !important;
 		width: auto;
 	}
-	#register-buuton{
+	#register-button{
 		top:-740px;
 		right:0px;
 	}
 	#register-button-2 a {
 		font-size: 14px !important;
-		line-height: 44px !important;
-		width: 70%;
+		line-height: 28px !important;
+		padding: 2%;
+		width: 80%;
 	}
 }	
 
