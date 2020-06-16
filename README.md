@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/Git-Commit-Show/landing-page.svg)](http://hits.dwyl.com/Git-Commit-Show/landing-page)
+
 # GitCommitShow 2020 Homepage
 
 This repository contains the source code for the homepage of the gitcommitshow 2020 event.
