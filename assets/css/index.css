@@ -25,9 +25,6 @@ html,body{
 	width: 40px;
 	margin: 5px;
 }
-  p{
-	  margin: 0;
-  }
 @media all and (min-width:100px) and (max-width:649px) {
 	body {
 	overflow-x:hidden !important;
@@ -156,18 +153,23 @@ html,body{
 	
 #register-button-1 button:hover, #register-button-1 button:focus{ 
     background: #BCBCBC;
+    transition: background .6s ease;
 	}
 #register-button-2 button:hover, #register-button-2 button:focus{
     background: #BCBCBC;
+    transition: background .6s ease;
 	}
 #register-button-3 button:hover, #register-button-3 button:focus{
     background: #BCBCBC;
+    transition: background .6s ease;
 	}
 #video-button button:hover, #video-button button:focus{
     background: #BCBCBC;
+    transition: background .6s ease;
 	}
 .button-div a:hover, .button-div a:focus{
     background: #BCBCBC !important;
+    transition: background .6s ease;
 	}
 
 
