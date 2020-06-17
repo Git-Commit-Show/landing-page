@@ -932,11 +932,8 @@ html,body{
 .slider-span{
 	font-family: IBM Plex Mono;
 	font-size: 22px;
-	margin-top: 40px;
-	height: 170px;
+	margin-top: 10px;
 	overflow: hidden;
-	transition: height 0.5s ease-in-out;
-	color: #EFEFEF;
 	text-align: center;
 }
 #youtube-thumbnail {
@@ -1119,10 +1116,6 @@ html,body{
 		line-height: 28px !important;
 		padding: 2%;
 		width: 50%;
-	}
-	.iframe-size{
-	height: 600px;
-	width: 750px;
 	}	
 }
 @media all and (max-width: 570px) and (min-width: 350px){
@@ -1153,10 +1146,9 @@ html,body{
 		padding: 2%;
 		width: 80%;
 	}
-
 }
 
-@media all and (max-width: 328px){
+@media all and (max-width: 395px){
 	#register-button{
 		top:-740px;
 		right:0px;
