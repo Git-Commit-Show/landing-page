@@ -15,7 +15,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## How do I contribute?
 
 1. Always create a new branch and make your changes in that branch before sending a PR.   
-2. Send a PR to the **dev branch**.   
+2. Send a PR to the **master branch**.   
 3. Ensure any install or build dependencies are added/removed before pushing new changes.   
 4. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports or useful file locations.   
 5. Request the maintainers to merge your branch and it's changes to the master branch after it's reviewed.   
@@ -23,3 +23,6 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Reference Material
 
 You can check the discussions in [this notion doc](https://www.notion.so/Landing-page-revamp-a11a38411089466085a89ae79dcdc8f5)
+
+
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
