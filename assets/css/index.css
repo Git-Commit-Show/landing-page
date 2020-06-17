@@ -17,14 +17,14 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: rgb(240, 171, 23);
-	border: 1px solid wheat;
-	border-radius: 10px;
+	background: rgb(105, 105, 105);
+	border: 1px solid (rgb(5, 5, 5), 0, 0);
+	border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #a3781a;
+	background: #2c2a2a;
 }
 /* SCROLL BAR ENDS */
 /* BODY CSS */
