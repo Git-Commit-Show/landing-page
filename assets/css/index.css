@@ -144,7 +144,7 @@ html,body{
 	font-size: 25px;
 	line-height: 48px;
 	color: #141414;
-	background: #d4d4ff;
+	background: #EFEFEF;
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	text-decoration: none;
@@ -155,19 +155,19 @@ html,body{
 	}
 	
 #register-button-1 button:hover, #register-button-1 button:focus{ 
-    background: #fff;
+    background: #BCBCBC;
 	}
 #register-button-2 button:hover, #register-button-2 button:focus{
-    background: #fff;
+    background: #BCBCBC;
 	}
 #register-button-3 button:hover, #register-button-3 button:focus{
-    background: #fff;
+    background: #BCBCBC;
 	}
 #video-button button:hover, #video-button button:focus{
-    background: #fff;
+    background: #BCBCBC;
 	}
-.button-div li a:hover, .button-div li a:focus{
-    background: #fff !important;
+.button-div a:hover, .button-div a:focus{
+    background: #BCBCBC !important;
 	}
 
 
@@ -854,7 +854,7 @@ html,body{
 #register-button-2 button{
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
-	background: #d4d4ff;
+	background: #EFEFEF;
 	-webkit-box-shadow: 5px 10px 20px #000;
 			box-shadow: 5px 10px 20px #000;
 	border:none;
@@ -1019,7 +1019,7 @@ html,body{
 	color: #141414;
 	margin: auto !important;
 	text-decoration: none;
-	background: #d4d4ff;
+	background: #EFEFEF;
 	-webkit-box-shadow: 5px 10px 20px #000;
 	        box-shadow: 5px 10px 20px #000;
 	border-radius: 2px;
@@ -1400,7 +1400,7 @@ html,body{
 	color: #141414;
 	text-decoration: none;
 	text-align: center;
-	background: #d4d4ff;
+	background: #EFEFEF;
 	-webkit-box-shadow: 5px 10px 20px #000;
 			box-shadow: 5px 10px 20px #000;
 	border:none;
