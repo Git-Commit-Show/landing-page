@@ -762,6 +762,13 @@ body {
 	position: relative;
 	left: -24px;
 }
+.jun28-hr{
+	width: 100px;
+	height: 0px;
+	border: 1px solid #efefef;
+	position: relative;
+	left: -234px;
+}
 
 .speakers-time {
 	font-family: "IBM Plex Mono", monospace;
@@ -903,8 +910,7 @@ body {
 }
 #register-button-2 {
 	position: relative;
-	top: -840px;
-	right: -300px;
+	top: -720px;
 	text-align: center;
 }
 #register-button-2 button {
@@ -924,12 +930,13 @@ body {
 	width: 30%;
 }
 #mountain-3 {
+	opacity: 0.2;
 	width: 953px;
 	height: 736px;
 	mix-blend-mode: screen;
 	position: relative;
 	top: -275px;
-	left: 350px;
+	left: 600px;
 }
 @media all and (min-width: 1600px) {
 	#mountain-3 {
@@ -938,7 +945,7 @@ body {
 }
 @media all and (max-width: 600px) {
 	#mountain-3 {
-		left: 40px;
+		left: 300px;
 	}
 }
 /*SPEAKER CSS END*/
@@ -1167,9 +1174,8 @@ body {
 	}
 	#register-button-2 button {
 		font-size: 18px !important;
-		line-height: 28px !important;
-		padding: 2%;
-		width: 50%;
+		line-height: 58px !important;
+		width: 60%;
 	}	
 
 }
@@ -1202,15 +1208,14 @@ body {
 		width: 80%;
 	}
 }
-
 @media all and (max-width: 395px){
 	#register-button{
 		top:-740px;
 		right:0px;
 	}
 	#register-button-2 button {
-		font-size: 13px !important;
-		line-height: 30px !important;
+		font-size: 14px !important;
+		line-height: 40px !important;
 		width: 90%;
 	}
 }
