@@ -1384,6 +1384,42 @@ body {
 		width: 70% !important;
 	}
 }
+
+/*SPEAKERS 2019 SECTION*/
+#speakers-2019{
+	padding: 6% 0% 0% 0%;
+}
+#speakers-heading{
+	font-family: "Work Sans", sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 20px;
+	text-align: center;
+	color: #efefef;
+	height: 40px;
+	width: 600px;
+	margin: auto;
+}
+#speakers-2019 img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(90%);
+}
+.img-circle {
+	height: 12vh;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+.roww{
+	width: auto;
+    display: flex;
+    overflow: auto;
+    padding: 30px;
+}
+/*::-webkit-scrollbar {
+    display: none; /* make scrollbar transparent 
+}*/
+/*SPEAKERS 2019 SECTION ENDS*/
 /*HIGHLIGHTS SECTION*/
 /*FOOTER CSS*/
 #footer {
