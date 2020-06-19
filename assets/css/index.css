@@ -927,7 +927,7 @@ body {
 	color: #141414;
 	text-decoration: none;
 	margin: auto !important;
-	width: 30%;
+	width: 34%;
 }
 #mountain-3 {
 	opacity: 0.2;
@@ -936,7 +936,7 @@ body {
 	mix-blend-mode: screen;
 	position: relative;
 	top: -275px;
-	left: 600px;
+	left: 40%;
 }
 @media all and (min-width: 1600px) {
 	#mountain-3 {
@@ -947,6 +947,11 @@ body {
 	#mountain-3 {
 		left: 300px;
 	}
+}
+
+.filling-empty-space-childs {
+    width: 525px; /*the width of the div in this example*/
+    height:0; /*Important! for the divs to collapse should they fall in a new row*/
 }
 /*SPEAKER CSS END*/
 /*HIGHLIGHTS SECTION*/
@@ -1175,7 +1180,7 @@ body {
 	#register-button-2 button {
 		font-size: 18px !important;
 		line-height: 58px !important;
-		width: 60%;
+		width: 34%;
 	}	
 
 }
@@ -1202,10 +1207,10 @@ body {
 		right:0px;
 	}
 	#register-button-2 button {
-		font-size: 18px !important;
+		font-size: 17px !important;
 		line-height: 28px !important;
 		padding: 2%;
-		width: 80%;
+		width: 34%;
 	}
 }
 @media all and (max-width: 395px){
@@ -1216,7 +1221,7 @@ body {
 	#register-button-2 button {
 		font-size: 14px !important;
 		line-height: 40px !important;
-		width: 90%;
+		width: 34%;
 	}
 }
 @media all and (max-width: 350px) {
