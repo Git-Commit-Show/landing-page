@@ -308,7 +308,7 @@
                         <p class="speakers-time">15:00</p>
                         <hr class="jun27-hr">
                         <a href="https://www.linkedin.com/in/manaswini-das/" title="Add me on Linkedin" target="_blank" rel="noopener noreferrer">
-                            <img class="speakers-icon" src="assets/img/speakers/manaswini-das.jpeg" alt="speaker">
+                            <img class="speakers-icon" src="assets/img/speakers/manaswini-das.jpg" alt="speaker">
                         </a>
                     </div>
                     <div>
@@ -366,7 +366,7 @@
             </div>
         </div>
     </div>
-    
+    </div>
     <!-- SPEAKERS SECTION END -->
     <!-- HIGHLIGHT SECTION -->
     <div id="highlights">
@@ -416,7 +416,7 @@
                 </div> 
             </div>
             <div id="youtube-thumbnail">
-            <iframe class="iframe-size"
+            <iframe class="iframe-size "
                 src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0"
                 allowfullscreen style="border: 0;"></iframe>
             <param name="allowFullScreen" value="true" />
@@ -434,7 +434,7 @@
             <div>
                 <div class="roww">
                     <div class="speaker-19">
-                        <img class="img-circle" src="assets/img/speakers2019/harshita.jpeg">
+                        <img class="img-circle" src="assets/img/speakers2019/harshita.jpg">
                     </div>
                     <div class="speaker-19">
                         <img class="img-circle" src="assets/img/speakers2019/keith.jpeg">
@@ -443,10 +443,10 @@
                         <img class="img-circle" src="assets/img/speakers2019/akhil.jpg">
                     </div>
                     <div class="speaker-19">
-                        <img class="img-circle" src="assets/img/speakers2019/altanai.jpeg">
+                        <img class="img-circle" src="assets/img/speakers2019/altanai.jpg">
                     </div>
                     <div class="speaker-19">
-                        <img class="img-circle" src="assets/img/speakers2019/byron.png">
+                        <img class="img-circle" src="assets/img/speakers2019/byron.jpg">
                     </div>
                     <div class="speaker-19">
                         <img class="img-circle" src="assets/img/speakers2019/daniel-stenberg.jpg">
@@ -660,45 +660,20 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
+    
     <!-- FOOTER SECTION END -->
     <!-- SCRIPTS -->
-    <script>
-        $(document).ready(function(){
-            var readMoreHtml= $(".read-more").html();
-            var lessText=readMoreHtml.substr(0,20);
-            if(readMoreHtml.length>20){
-                $(".read-more").html(lessText).append("<a href='' class='read-more-link'>  Show More </a>");
-            }
-            else{
-                $(".read-more").html(readMoreHtml);
-            }
-            $("body").on("click",".read-more-link",function(event){
-                event.preventDefault();
-                $(this).parent(".read-more").html(readMoreHtml).append("<a href='' class='show-less-link'>Show Less </a>");
-            });
-            $("body").on("click",".show-less-link",function(event){
-                event.preventDefault();
-                $(this).parent(".read-more").html(readMoreHtml.substr(0,20)).append("<a href='' class='read-more-link'>Show More </a>")
-            });
-        });
-        </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="assets/js/autodivscroll.js"></script>
-    <script src="assets/js/count.js"></script>
-    <script src="assets/slick/slick.js"></script>
-    <script src="assets/js/slick-effect.js"></script>
+    <script defer src="assets/js/autodivscroll.js"></script>
+    <script defer src="assets/js/count.js"></script>
+    <script defer src="assets/slick/slick.js"></script>
+    <script defer src="assets/js/slick-effect.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous">
     </script>
     <!--ZC Popup Code Starts-->
