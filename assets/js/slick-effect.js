@@ -34,4 +34,11 @@ $(document).ready(function () {
 
   ]
     });
+
+
+    $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+  var current = $(slick.$slides[currentSlide]);
+  current.html(current.html());
+});
+
 });
