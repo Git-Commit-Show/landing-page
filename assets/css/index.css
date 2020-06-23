@@ -654,6 +654,33 @@ body {
 .timezone-text span {
 	color: red;
 }
+/** Timer style **/
+li.timer {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #141414;
+    background-color: #f3f1f1;
+    padding: 10px 15px 5px 15px;
+    line-height: 25px;
+    font-weight: 700;
+    border-radius: 2px;
+  }
+li.timer span {
+    display: block;
+    font-size: 30px;
+  }
+@media only screen and (max-width:450px){
+    li.timer span{
+      font-size: 20px;
+    }
+    li.timer{
+      padding: 0 5px;
+      line-height: 20px;
+      font-size: 13px;
+    }
+  }
 @media all and (max-width: 450px) {
 	#schedule-text {
 		top: -50px !important;
@@ -1481,6 +1508,26 @@ body {
 }
 .mobile-hide {
 	display: block;
+}
+.footer-col-title {
+    text-align: center;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item-link {
+    cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+    .footer-item {
+        text-align: left;
+    }
+    .footer-col-title {
+        text-align: left;
+    }
 }
 @media only screen and (max-width: 700px) {
 	.mobile-hide {
