@@ -5,8 +5,8 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
-        prevArrow: "<img class='a-left control-c-left prev slick-prev' src='assets/img/left.svg '>",
-        nextArrow:"<img class='a-right control-c-right next slick-next' src='assets/img/right.svg'>",
+        prevArrow: "<img class='a-left control-c-left prev slick-prev' src='assets/img/left.svg ' alt='leftarrow'>",
+        nextArrow:"<img class='a-right control-c-right next slick-next' src='assets/img/right.svg' alt='rightarrow'>",
         centerMode: true,
         centerPadding: '10',
         responsive: [
