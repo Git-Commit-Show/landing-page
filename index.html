@@ -17,6 +17,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://www.youtube.com">
+        <link rel="preconnect" href="https://i.ytimg.com">
+        <link rel="preconnect" href="https://i9.ytimg.com">
+        <link rel="preconnect" href="https://s.ytimg.com">
 </head>
 
 <body>
@@ -37,11 +41,38 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav navbar-right ml-auto" id="nav-ul">
-                <li class="nav-item active"><a class="nav-link navstyle" href="#home">Home
-                        <span class="sr-only">(current)</span></a></li>
-                <li class="nav-item"><a class="nav-link navstyle" href="#speakers">Speakers</a></li>
-                <li class="nav-item"><a class="nav-link navstyle" href="#highlights">Highlights/2019</a></li>
-                <li class="nav-item"><a class="nav-link navstyle" href="#footer">Contact Us</a></li>
+                <li class="nav-item">
+                    <a class="nav-link navstyle" href="#speakers">Schedule
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navstyle" href="#highlights">Highlights/2019</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navstyle" data-toggle="dropdown">Add to Calender</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" target="_blank" rel="noopener noreferrer"
+                            href="https://www.google.com/calendar/render?action=TEMPLATE&dates=20200627T043000Z%2F20200628T123000Z&text=Git%20Commit%20Show&location=Virtual%20Online&details=Join%20at%3A%20live.gitcommit.show%20.%0AUpdated%20Schedule%3A%20gitcommit.show">Google
+                            Calender
+                        </a>
+                        <a class="dropdown-item" target="_blank" rel="noopener noreferrer"
+                                href="https://outlook.live.com/owa/?path=/calendar/action/compose
+				        	&rru=addevent&startdt=2020-06-27T10%3A00%3A00&enddt=2020-06-28T08%3A30%3A00-05%3A00&subject=Git%20Commit%20Show&body=Join%20at:%20live.gitcommit.show%20.Updated%20Schedule:%20gitcommit.show&location=Virtual%20Online">Outlook
+                                Calender
+                            </a>
+                        <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://calendar.yahoo.com/?v=60&view=d&type=20
+				        	&title=Git+Commit+Show
+				        	&st=20200627T090000
+				        	&et=20200628T190000
+				        	&desc=Join%20at:%20live.gitcommit.show%20.Updated%20Schedule:%20gitcommit.show%20.
+				        	&in_loc=Virtual+Online
+                            &uid=">Yahoo Calender
+                            </a>
+                        <a class="dropdown-item" href="assets/myEvent.ics" target="_blank" rel="noopener noreferrer">iCal</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link navstyle" href="http://push.gitcommit.show">Register</a></li>
             </ul>
         </div>
     </nav>
@@ -424,7 +455,7 @@
                     </div>
                 </div> 
             </div>
-            <div id="youtube-thumbnail">
+        <div id="youtube-thumbnail">
             <iframe title="youtube video" class="iframe-size "
                 src="https://www.youtube.com/embed/oYP7W1gXzsI?rel=0&modestbranding=1&autohide=1&controls=0"
                 allowfullscreen style="border: 0;" loading="lazy"></iframe>
@@ -669,27 +700,26 @@
             </div>
         </div>
     </div>
-    
     <!-- FOOTER SECTION END -->
     <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <script async src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="assets/js/autodivscroll.js"></script>
-    <script src="assets/js/count.js"></script>
-    <script src="assets/slick/slick.js"></script>
-    <script src="assets/js/slick-effect.js"></script>
+    <script async src="assets/js/autodivscroll.js"></script>
+    <script async src="assets/js/count.js"></script>
+    <script async src="assets/slick/slick.js"></script>
+    <script async src="assets/js/slick-effect.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script async src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <!--ZC Popup Code Starts-->
-    <script type="text/javascript" id="ZC_Forms_Popup" src="https://campaigns.zoho.com/js/optin.min.js"
+    <script async type="text/javascript" id="ZC_Forms_Popup" src="https://campaigns.zoho.com/js/optin.min.js"
         onload="loadZCPopup('2eda160ea23c299e223fa0d67ab25aec464ea8c0b48e713d7','ZCFORMVIEW','2a45059ac55260ce7d71b62c3142be692')"
         onreadystatechange="loadZCPopup('2eda160ea23c299e223fa0d67ab25aec464ea8c0b48e713d7','ZCFORMVIEW','2a45059ac55260ce7d71b62c3142be692')">
     </script>
