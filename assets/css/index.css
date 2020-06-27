@@ -980,19 +980,37 @@ li.timer span {
 	top: -275px;
 	left: 40%;
 }
-@media all and (min-width: 1600px) {
+@media (min-width: 1585px) and (max-width: 2100px) {
 	#mountain-3 {
-		left: 750px;
+		left: 430px;
+		top: -500px;
 	}
+
+#register-button-2 button {
+	border-radius: 2px;
+    font-weight: 800;
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+    top: -329px;
+    line-height: 56px;
+    /* margin: auto !important; */
+    width: 54%;
+}
 }
 @media all and (max-width: 600px) {
 	#mountain-3 {
 		left: 300px;
 	}
 }
-
+@media (min-width: 1575px) and (max-width: 2100px){
 .filling-empty-space-childs {
     width: 525px; /*the width of the div in this example*/
+    height:0; /*Important! for the divs to collapse should they fall in a new row*/
+}
+}
+.filling-empty-space-childs {
+    width: 530px; /*the width of the div in this example*/
     height:0; /*Important! for the divs to collapse should they fall in a new row*/
 }
 /*SPEAKER CSS END*/
