@@ -238,7 +238,11 @@ color: #141414;
 	line-height: 23px;
 	color: #EFEFEF;
 }
-
+.duration{
+	position: relative;
+	top: 32px;
+    right: 80px;
+}
 .time-and-name{
 	display: flex;
 	position: relative;
@@ -256,7 +260,7 @@ color: #141414;
 	width: 511px;
 	height: 35px;
 	position: relative;
-	left: 40px;
+	left: -40px;
 	font-family: Work Sans;
 	font-weight: 900;
 	font-size: 36px;
@@ -321,6 +325,24 @@ color: #141414;
 margin-right: 5%;
 
 }
+#register-button-3 button {
+	position: relative;
+	top: 450px;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 48px;
+    color: #141414;
+    text-decoration: none;
+    text-align: center;
+    background: #efefef;
+    -webkit-box-shadow: 5px 10px 20px #000;
+    box-shadow: 5px 10px 20px #000;
+    border: none;
+    border-radius: 2px;
+    width: 30%;
+}
 @media all and (max-width: 450px) {
 	#schedule-text {
 		top: 190px !important;
@@ -383,6 +405,14 @@ line-height: 40px;
 	font-size: 14px;
 	line-height: 23px;
 }
+.duration{
+	position: relative;
+    top: 32px;
+    text-align: left;
+    right: 48px;
+    font-size: 14px;
+    width: 100%;
+}
 
 .time-and-name{
 	display: flex;
@@ -397,6 +427,7 @@ line-height: 40px;
 	display: flex;
 	position: relative;
 	left: -75px;
+	margin-top: 1.5%;
 	
 }
 
@@ -406,7 +437,7 @@ line-height: 40px;
 	position: relative;
 	font-weight: 900;
 	font-size: 19px;
-	line-height: 42px;
+	line-height: 30px;
 }
 .speakers-data-2 {
 	width: 130px;
@@ -447,6 +478,14 @@ height: 21px;
 border-radius: 8px;
 font-size: 10px;
 
+}
+#register-button-3 button {
+	top: 540px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 35px;
+    border-radius: 2px;
+    width: 172px;
 }
 }
 @media all and (min-width: 451px) and (max-width: 689px) {
@@ -505,10 +544,19 @@ font-size: 10px;
 	.speakers-time {
 		position: relative;
 		top:11px;
+		left: -9%;
 		height: 23px;
 		font-size: 14px;
 		line-height: 23px;
 	}
+	.duration{
+	position: relative;
+    top: 32px;
+    text-align: left;
+    right: 98px;
+    font-size: 14px;
+    padding-bottom: 2%;
+}
 
 	.time-and-name{
 		display: flex;
@@ -528,10 +576,11 @@ font-size: 10px;
 		width: 511px;
 		height: 35px;
 		position: relative;
+		left: -4%;
 		font-weight: 900;
 		font-size: 23px;
 		text-align: left;
-		line-height: 42px;
+		line-height: 30px;
 	}
 	.speakers-data-2 {
 		width: 130px;
@@ -573,6 +622,14 @@ font-size: 10px;
 	font-size: 13px;
 
 	}
+	#register-button-3 button {
+	top: 540px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 35px;
+    border-radius: 2px;
+    width: 40%;
+}
 }
 @media all and (min-width: 690px) and (max-width: 840px) {
 	#schedule-text {
@@ -633,6 +690,11 @@ font-size: 10px;
 		font-size: 14px;
 		line-height: 23px;
 	}
+	.duration{
+	position: relative;
+	top: 32px;
+    right: 80px;
+}
 
 	.time-and-name{
 		display: flex;
@@ -646,6 +708,7 @@ font-size: 10px;
 		display: flex;
 		position: relative;
 		left: -60px;
+		margin-top: 1.5%;
 		
 	}
 
@@ -696,6 +759,9 @@ font-size: 10px;
 	font-size: 14px;
 
 	}
+	#register-button-3 button {
+	top: 540px;
+}
 }
 @media all and (min-width: 841px) and (max-width: 1200px) {
 	#schedule-text {
@@ -786,6 +852,12 @@ font-size: 10px;
 		color: #EFEFEF;
 	}
 
+	.duration{
+	position: relative;
+	top: 32px;
+    right: 80px;
+	}
+
 	.time-and-name{
 		display: flex;
 		position: relative;
@@ -803,7 +875,7 @@ font-size: 10px;
 		width: 511px;
 		height: 35px;
 		position: relative;
-		left: 40px;
+		left: -40px;
 		font-family: Work Sans;
 		font-weight: 900;
 		font-size: 36px;
@@ -864,7 +936,11 @@ font-size: 10px;
 	margin-right: 5%;
 
 	}
+	#register-button-3 button {
+	top: 540px;
 }
+}
+
 /*SPEAKER CSS END*/
 /*FOOTER CSS*/
 #footer {
