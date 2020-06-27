@@ -433,11 +433,13 @@ line-height: 40px;
 
 .speakers-data-1 {
 	width: 511px;
-	height: 35px;
-	position: relative;
-	font-weight: 900;
-	font-size: 19px;
-	line-height: 30px;
+    height: 35px;
+    position: relative;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: left;
+    line-height: 31px;
+    left: -10px;
 }
 .speakers-data-2 {
 	width: 130px;
