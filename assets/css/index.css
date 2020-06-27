@@ -655,6 +655,9 @@ body {
 	color: red;
 }
 /** Timer style **/
+ul.timer{
+	margin: 0 !important;
+}
 li.timer {
     text-align: center;
     display: inline-block;
