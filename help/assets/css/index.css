@@ -130,7 +130,7 @@ font-style: normal;
 font-weight: normal;
 color: #141414;
 margin: 5px;
-height: 28px;
+height: 40px;
 border-radius: 5px;
 font-size: 18px;
 }
@@ -170,7 +170,7 @@ color: #EFEFEF;
 
 #schedule-date {
 	position: relative;
-	width: 283px;
+	width: 60%;
 	height: 58px;
 	left: 0px;
 	top: 387px;
@@ -189,142 +189,6 @@ text-align: center;
 color: #141414;
 }
 
-.jun27 {
-    position: relative;
-    top: 150px;
-    left: 320px;
-}
-
-.jun27-items {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;	
-}
-
-.jun27-child {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient:vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: column;
-	-ms-flex-pack: distribute;
-	padding: 20px;
-	position: relative;
-    left: -158px;
-    top: 241px;
-	/*padding-top: 225px !important;*/
-}
-
-.jun27-hr {
-	width: 511px;
-    position: relative;
-    left: -27%;
-    top: 0px;
-    border: 1px solid #E71D2B;
-}
-
-
-.speakers-time {
-	position: relative;
-	top:12px;
-	width: 54px;
-	height: 23px;
-	font-family: IBM Plex Mono;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 23px;
-	color: #EFEFEF;
-}
-.duration{
-	position: relative;
-	top: 32px;
-    right: 80px;
-}
-.time-and-name{
-	display: flex;
-	position: relative;
-
-
-}
-.type-intro{
-	display: flex;
-	position: relative;
-	left: -75px;
-	
-}
-
-.speakers-data-1 {
-	width: 511px;
-	height: 35px;
-	position: relative;
-	left: -40px;
-	font-family: Work Sans;
-	font-weight: 900;
-	font-size: 36px;
-	line-height: 42px;
-	font-style: normal;
-	color: #EFEFEF;
-	text-transform: uppercase;
-}
-.speakers-data-2 {
-	width: 130px;
-	height: 23px;
-	text-align: right;
-	font-family: IBM Plex Mono;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 23px;
-	color: #EFEFEF;
-
-}
-.speakers-data-3 {
-	width: 740px;
-	position: relative;
-	left: 40px;
-	font-weight: 800;
-	font-size: 24px;
-	line-height: 28px;
-	font-family: Work Sans;
-	font-style: normal;
-	color: #EFEFEF;
-
-}
-.speakers-data-4 {
-	width: 1097px;
-	position: relative;
-	left: 95px;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: normal;
-	color: #EFEFEF;
-	width: 77%;
-    font-size: 17px;
-    text-align: left;
-    line-height: 21px;
-}
-
-.speakers-buttons{
-	position: relative;
-    left: 93px;
-    display: flex;
-}
-.speakers-buttons button{
-border:none;
-height: 28px;
-background: #EFEFEF;
-border-radius: 5px;
-font-family: Work Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-color: #141414;
-margin-right: 5%;
-
-}
 #register-button-3 button {
 	position: relative;
 	top: 450px;
@@ -357,130 +221,23 @@ margin-right: 5%;
 		width: auto;
 	}
 	.top-buttons button{
-	height: 21px;
+	height: 27px;
 	border-radius: 8px;
-	font-size: 10px;
+	font-size: 15px;
 
 	}
 	#schedule-date {
 	position: relative;
-    width: 223px;
+    width: 383px;
     height: 38px;
-    left: 0px;
-    top: 557px;
 }
+
 
 #schedule-date p {
 font-size: 20px;
 line-height: 40px;
 }
 
-.jun27 {
-    position: relative;
-    top: 303px;
-    left: 216px;
-
-}
-
-.jun27-child {
-	padding: 20px;
-	position: relative;
-    left: -158px;
-    top: 241px;
-}
-
-.jun27-hr {
-	width: 612px;
-    position: relative;
-    height: 0px;
-    left: -332px;	
-    border: 1px solid #E71D2B;
-}
-
-
-.speakers-time {
-	position: relative;
-	top:11px;
-	height: 23px;
-	font-size: 14px;
-	line-height: 23px;
-}
-.duration{
-	position: relative;
-    top: 32px;
-    text-align: left;
-    right: 48px;
-    font-size: 14px;
-    width: 100%;
-}
-
-.time-and-name{
-	display: flex;
-    position: relative;
-    left: -60px;
-    margin-right: 33px;
-    text-align: right;
-
-
-}
-.type-intro{
-	display: flex;
-	position: relative;
-	left: -75px;
-	margin-top: 1.5%;
-	
-}
-
-.speakers-data-1 {
-	width: 511px;
-    height: 35px;
-    position: relative;
-    font-weight: 900;
-    font-size: 17px;
-    text-align: left;
-    line-height: 31px;
-    left: -10px;
-}
-.speakers-data-2 {
-	width: 130px;
-	height: 23px;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 23px;
-
-}
-.speakers-data-3 {
-	width: 740px;
-	position: relative;
-	font-weight: 800;
-	font-size: 17px;
-	line-height: 28px;
-
-}
-.speakers-data-4 {
-	width: auto;
-    position: relative;
-    left: -55px;
-    font-size: 11px;
-    text-align: left;
-    line-height: 21px;
-}
-
-.speakers-buttons{
-
-position: relative;
-    left: -57px;
-    display: flex;
-    margin: 6px;
-}
-.speakers-buttons button{
-	border:none;
-margin-right: 5%;
-height: 21px;
-border-radius: 8px;
-font-size: 10px;
-
-}
 #register-button-3 button {
 	top: 540px;
     font-weight: 600;
@@ -502,17 +259,15 @@ font-size: 10px;
 		font-size: 20px;
 	}
 	.top-buttons button{
-	height: 24px;
+	height: 30px;
     border-radius: 8px;
-    font-size: 13px;
+    font-size: 17px;
 
 	}
 	#schedule-date {
 	position: relative;
-    width: 223px;
-    height: 38px;
-    left: 0px;
-    top: 557px;
+    width: 423px;
+    height: 48px;
 	}
 
 	#schedule-date p {
@@ -520,110 +275,6 @@ font-size: 10px;
 	line-height: 40px;
 	}
 
-	.jun27 {
-		position: relative;
-		top: 303px;
-		left: 216px;
-
-	}
-
-	.jun27-child {
-		padding: 20px;
-		position: relative;
-		left: -158px;
-		top: 241px;
-	}
-
-	.jun27-hr {
-		width: 612px;
-		position: relative;
-		height: 0px;
-		top: 0px;
-		border: 1px solid #E71D2B;
-	}
-
-
-	.speakers-time {
-		position: relative;
-		top:11px;
-		left: -9%;
-		height: 23px;
-		font-size: 14px;
-		line-height: 23px;
-	}
-	.duration{
-	position: relative;
-    top: 32px;
-    text-align: left;
-    right: 98px;
-    font-size: 14px;
-    padding-bottom: 2%;
-}
-
-	.time-and-name{
-		display: flex;
-		position: relative;
-		margin-right: 33px;
-		text-align: right;
-
-	}
-	.type-intro{
-		display: flex;
-		position: relative;
-		left: -75px;
-		
-	}
-
-	.speakers-data-1 {
-		width: 511px;
-		height: 35px;
-		position: relative;
-		left: -4%;
-		font-weight: 900;
-		font-size: 23px;
-		text-align: left;
-		line-height: 30px;
-	}
-	.speakers-data-2 {
-		width: 130px;
-		height: 23px;
-		font-weight: bold;
-		font-size: 16px;
-		line-height: 23px;
-
-	}
-	.speakers-data-3 {
-		width: 740px;
-		position: relative;
-		font-weight: 800;
-		font-size: 17px;
-		line-height: 28px;
-
-	}
-	.speakers-data-4 {
-		width: auto;
-		position: relative;
-		left: -55px;
-		font-size: 17px;
-		text-align: left;
-		line-height: 21px;
-	}
-
-	.speakers-buttons{
-
-	position: relative;
-		left: -57px;
-		display: flex;
-		margin: 6px;
-	}
-	.speakers-buttons button{
-		border:none;
-	margin-right: 5%;
-	height: 24px;
-	border-radius: 8px;
-	font-size: 13px;
-
-	}
 	#register-button-3 button {
 	top: 540px;
     font-weight: 600;
@@ -644,126 +295,12 @@ font-size: 10px;
 		font-size: 22px;
 	}
 	.top-buttons button{
-	height: 26px;
+	height: 30px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 17px;
 
 	}
-	#schedule-date {
-	position: relative;
-    width: 223px;
-    height: 38px;
-    left: 0px;
-    top: 557px;
-	}
-
-	#schedule-date p {
-	font-size: 20px;
-	line-height: 40px;
-	}
-
-	.jun27 {
-		position: relative;
-		top: 303px;
-		left: 216px;
-
-	}
-
-	.jun27-child {
-		padding: 20px;
-		position: relative;
-		left: -158px;
-		top: 241px;
-	}
-
-	.jun27-hr {
-		width: 77%;
-		position: relative;
-		left: 2%;
-		height: 0px;
-		border: 1px solid #E71D2B;
-	}
-
-
-	.speakers-time {
-		position: relative;
-		top:11px;
-		height: 23px;
-		font-size: 14px;
-		line-height: 23px;
-	}
-	.duration{
-	position: relative;
-	top: 32px;
-    right: 80px;
-}
-
-	.time-and-name{
-		display: flex;
-		position: relative;
-		margin-right: 33px;
-		text-align: right;
-
-
-	}
-	.type-intro{
-		display: flex;
-		position: relative;
-		left: -60px;
-		margin-top: 1.5%;
-		
-	}
-
-	.speakers-data-1 {
-		width: 511px;
-		height: 35px;
-		position: relative;
-		font-weight: 900;
-		font-size: 27px;
-		text-align: left;
-		line-height: 42px;
-	}
-	.speakers-data-2 {
-		width: 130px;
-		height: 23px;
-		font-weight: bold;
-		font-size: 16px;
-		line-height: 23px;
-
-	}
-	.speakers-data-3 {
-		width: 740px;
-		position: relative;
-		font-weight: 800;
-		font-size: 20px;
-		line-height: 28px;
-
-	}
-	.speakers-data-4 {
-		width: 77%;
-		position: relative;
-		font-size: 17px;
-		text-align: left;
-		line-height: 21px;
-	}
-
-	.speakers-buttons{
-
-	position: relative;
-		display: flex;
-		margin: 6px;
-	}
-	.speakers-buttons button{
-		border:none;
-	margin-right: 5%;
-	height: 26px;
-	border-radius: 8px;
-	font-size: 14px;
-
-	}
-	#register-button-3 button {
-	top: 540px;
-}
+	
 }
 @media all and (min-width: 841px) and (max-width: 1200px) {
 	#schedule-text {
@@ -778,171 +315,49 @@ font-size: 10px;
 	.top-buttons button{
 	height: 31px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 17px;
 
 	}
-	#schedule-date {
-	position: relative;
-	width: 283px;
-	height: 48px;
-	left: 0px;
-	top: 497px;
-
-	background: #E71D2B;
-	box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.7);
-	border-radius: 2px;
-	}
-
-	#schedule-date p {
-		font-family: IBM Plex Mono;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 51px;
-	text-align: right;
-	color: #141414;
-	}
-
-	.jun27 {
-		position: relative;
-		top: 260px;
-		left: 320px;
-
-	}
-
-	.jun27-items {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		
-	}
-
-	.jun27-child {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient:vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		flex-direction: column;
-		-ms-flex-pack: distribute;
-		padding: 20px;
-		position: relative;
-		left: -158px;
-		top: 241px;
-		/*padding-top: 225px !important;*/
-	}
-
-	.jun27-hr {
-		width: 511px;
-		position: relative;
-		height: 0px;	
-		border: 1px solid #E71D2B;
-	}
-
-
-	.speakers-time {
-		position: relative;
-		top:12px;
-		width: 54px;
-		height: 23px;
-		font-family: IBM Plex Mono;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 23px;
-		color: #EFEFEF;
-	}
-
-	.duration{
-	position: relative;
-	top: 32px;
-    right: 80px;
-	}
-
-	.time-and-name{
-		display: flex;
-		position: relative;
-
-
-	}
-	.type-intro{
-		display: flex;
-		position: relative;
-		left: -75px;
-		
-	}
-
-	.speakers-data-1 {
-		width: 511px;
-		height: 35px;
-		position: relative;
-		left: -40px;
-		font-family: Work Sans;
-		font-weight: 900;
-		font-size: 36px;
-		line-height: 42px;
-		font-style: normal;
-		color: #EFEFEF;
-		text-transform: uppercase;
-	}
-	.speakers-data-2 {
-		width: 130px;
-		height: 23px;
-		text-align: right;
-		font-family: IBM Plex Mono;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 23px;
-		color: #EFEFEF;
-
-	}
-	.speakers-data-3 {
-		width: 70%;
-		position: relative;
-		left: 40px;
-		font-weight: 800;
-		font-size: 24px;
-		line-height: 28px;
-		font-family: Work Sans;
-		font-style: normal;
-		color: #EFEFEF;
-
-	}
-	.speakers-data-4 {
-		width: 70%;
-		position: relative;
-		font-size: 17px;
-		text-align: left;
-		line-height: 21px;
-	}
-
-	.speakers-buttons{
-	position: relative;
-		width: 545px;
-		height: 52px;
-		left: 93px;
-		display: flex;
-	}
-	.speakers-buttons button{
-		border:none;
-	height: 38px;
-	background: #EFEFEF;
-	border-radius: 8px;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: #141414;
-	margin-right: 5%;
-
-	}
+	
+	
 	#register-button-3 button {
 	top: 540px;
 }
 }
 
+/*FAQ SECTION*/
+.collapsible {
+  background-color: #141414;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 21px;
+  font-weight: 600;
+}
+.faq button {
+	outline: none !important;
+}
+.faq{
+	position: relative;
+	top: 430px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.content {
+  padding: 0 18px;
+  /*width: 80%;*/
+  display: none;
+  overflow: hidden;
+  color: white;
+  font-size: 18px;
+  background-color: #141414;
+}
+
+/*FAQ END*/
 /*SPEAKER CSS END*/
 /*FOOTER CSS*/
 #footer {
