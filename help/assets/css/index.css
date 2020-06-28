@@ -327,7 +327,7 @@ line-height: 40px;
 
 /*FAQ SECTION*/
 .collapsible {
-  background-color: #141414;
+background-color: Transparent;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -354,7 +354,7 @@ line-height: 40px;
   overflow: hidden;
   color: white;
   font-size: 18px;
-  background-color: #141414;
+background-color: Transparent;
 }
 
 /*FAQ END*/
