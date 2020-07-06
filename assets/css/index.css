@@ -851,8 +851,8 @@ li.timer span {
 	height: 99px;
 	border-radius: 50px;
 	left: -18px;
-	-webkit-filter: grayscale(40%);
-	filter: grayscale(40%);
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 	-webkit-transition: all 0.7s ease;
 	-o-transition: all 0.7s ease;
 	transition: all 0.7s ease;
