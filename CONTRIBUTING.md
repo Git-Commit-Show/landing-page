@@ -25,4 +25,4 @@ Please note we have a code of conduct, please follow it in all your interactions
 You can check the discussions in [this notion doc](https://www.notion.so/Landing-page-revamp-a11a38411089466085a89ae79dcdc8f5)
 
 
-**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://opensource.com/article/19/7/create-pull-request-github)
