@@ -1048,8 +1048,9 @@ li.timer span {
 	height: 736px;
 	mix-blend-mode: screen;
 	position: relative;
-	top: -275px;
+	top: -105px;
 	left: 40%;
+	z-index: -2;
 }
 @media (min-width: 1585px) and (max-width: 2100px) {
 	#mountain-3 {
