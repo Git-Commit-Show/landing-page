@@ -138,6 +138,21 @@ body {
 	box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.7);
 	font-family: "IBM Plex Mono", monospace;
 }
+
+#communitypartners {
+	position: absolute;
+	width: 523px;
+	height: 78px;
+	left: -30px;
+	top: 113px;
+	background: #e71d2b;
+	border-radius: 3px;
+	-webkit-box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow   : 5px 1-px 12px rgba(0, 0, 0, 0.7);
+	box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.7);
+	font-family: "IBM Plex Mono", monospace;
+}
+
 #home-left-date p {
 	position: absolute;
 	left: 127px;
