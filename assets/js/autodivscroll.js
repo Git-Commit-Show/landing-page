@@ -102,3 +102,44 @@ $(document).ready(function () {
   ]
     });
 });
+var charLimit = 122;
+
+function truncate(el) {
+  var clone = el.children().first(),
+    originalContent = el.html(),
+    text = clone.text();
+
+  if (clone[0].innerHTML.trim().length > charLimit) {
+    el.attr("data-originalContent", originalContent);
+    el.addClass("hasHidden");
+    clone.text(text.substring(0, charLimit) + "...");
+    el.empty().append(clone);
+    el.append(
+      $("<div class='read-more'><a href='#' class='more'>Read More</a>")
+    );
+  }
+}
+
+$("body").on("click", "a.more", function (e) {
+  e.preventDefault();
+  var truncateElement = $(this).parent().parent();
+  if (truncateElement.hasClass("hasHidden")) {
+    $(truncateElement).html(truncateElement.attr("data-originalContent"));
+    $(truncateElement).append(
+      $("<div class='read-more'><a href='#' class='more'>Read Less</a>")
+    );
+    truncateElement.removeClass("hasHidden").slow;
+  } else {
+    $(".read-more", truncateElement).remove();
+    truncate(truncateElement);
+  }
+});
+
+$(".truncate").each(function () {
+  truncate($(this));
+});
+function myCallback() {
+  setTimeout(function () {
+    $("truncate").removeClass("hasHidden");
+  }, 3000);
+}
