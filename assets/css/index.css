@@ -87,7 +87,7 @@ body {
 	font-style: normal;
 }
 #nav-ul li a:hover {
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 .navbar-nav .nav-link {
 	font-family: "Josefin Sans", sans-serif;
@@ -752,6 +752,7 @@ body {
 /** Timer style **/
 ul.timer{
 	margin: 0 !important;
+	padding-left: 0px;
 }
 li.timer {
     text-align: center;
