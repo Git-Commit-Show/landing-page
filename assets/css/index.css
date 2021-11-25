@@ -96,6 +96,19 @@ body {
 .navbar {
 	background-color: #131313;
 }
+.yl-4{
+	position: relative;
+}
+.yl-4 a:first-child{
+	position: absolute;
+	position: absolute;
+    top: 0.7em;
+    left: 0.4em;
+    color: white;
+}
+.yl-4 a:last-child{
+	padding-left: 1.5em!important;
+}
 /*NAVBAR CSS ENDS*/
 /*HOME CSS*/
 #home-left-text {
