@@ -5,7 +5,8 @@ $(document).ready(function () {
         arrows: false,
         centerMode: false,
         centerPadding: '0',
-        autoplay: false,
+        autoplay: true,
+        autoplaySpeed: 1000,
         slidesToShow: 10,
         responsive: [
         {
