@@ -865,8 +865,9 @@ li.timer span {
 	font-size: 34px;
 	line-height: 68px;
 	color: #141414;
-	width: 233px;
-	text-align: right;
+	width: 500px;
+	/* text-align: center; */
+	padding-left: 10px;
 }
 #jun27 {
 	display: -webkit-box;
