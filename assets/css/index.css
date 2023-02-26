@@ -343,6 +343,9 @@ body {
 	}
 }
 @media only screen and (max-width: 630px) {
+	.onHold {
+		font-size: 80%;
+	}
 	#home-left-text {
 		position: absolute;
 		width: 340px;
@@ -412,6 +415,9 @@ body {
 }
 /*For 320px and small devices*/
 @media only screen and (max-width: 350px) {
+	.onHold {
+		font-size: 70%;
+	}
 	#home-left-text p {
 		font-size: 60px;
 		font-weight: 900;
