@@ -861,7 +861,7 @@ li.timer span {
 	#schedule-date {
 		top: 0px !important;
 	}
-	#jun27 {
+	#past-talk-details {
 		top: 0px !important;
 	}
 }
@@ -875,45 +875,27 @@ li.timer span {
 	/* text-align: center; */
 	padding-left: 10px;
 }
-#jun27 {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
+#past-talk-details {
 	position: relative;
-	top: -30px;
-}
-
-.jun27-items {
-	display: -webkit-box;
-	display: -ms-flexbox;
+	top: -30px; 
 	display: flex;
-	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 1 525px;
-	flex: 0 1 525px;
 }
 
-.jun27-child {
-	display: -webkit-box;
-	display: -ms-flexbox;
+.past-talk-details-list {
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
+	flex-basis: 50%;
 	padding: 20px;
 	padding-top: 45px !important;
+}
+
+@media all and (max-width: 850px){
+	#past-talk-details {
+		justify-content: center;
+	}
+	.past-talk-details-list{
+		flex-basis: 100%;
+	}
 }
 
 .jun27-hr {
