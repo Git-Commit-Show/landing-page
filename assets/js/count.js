@@ -9,9 +9,14 @@ x = setInterval(function() {
   var now = new Date().getTime(),
   distance = countDown - now;
   if(distance > 0){
-    document.getElementById('days').innerText = Math.floor(distance / (day)),
-    document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-    document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-    document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+    var daysElement = document.getElementById('days'),
+      hoursElement = document.getElementById('hours'),
+      minutesElement = document.getElementById('minutes'),
+      secondsElement = document.getElementById('seconds');
+  
+    if(daysElement) daysElement.innerText = Math.floor(distance / (day));
+    if(hoursElement) hoursElement.innerText = Math.floor((distance % (day)) / (hour));
+    if(minutesElement) minutesElement.innerText = Math.floor((distance % (hour)) / (minute));
+    if(secondsElement) secondsElement.innerText = Math.floor((distance % (minute)) / second);
   }
 }, second)
